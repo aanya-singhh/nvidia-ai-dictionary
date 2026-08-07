@@ -1,0 +1,335 @@
+Name,Maker,Section
+GPT-5.5 / GPT-5,OpenAI,OpenAI
+GPT-4o,OpenAI,OpenAI
+o3 / o4-mini,OpenAI,OpenAI
+GPT Image 2,OpenAI,OpenAI
+Sora / Sora 2,OpenAI,OpenAI
+Whisper,OpenAI,OpenAI
+Codex,OpenAI,OpenAI
+Claude Opus 4.8 / 4.7 / 4.6,Anthropic,Anthropic
+Claude Sonnet 4.6,Anthropic,Anthropic
+Claude Haiku 4.5,Anthropic,Anthropic
+Claude Mythos Preview,Anthropic,Anthropic
+Claude Code,Anthropic,Anthropic
+Gemini 3.1 Pro Preview,Google DeepMind,Google DeepMind
+Gemini 3 Pro / Flash,Google DeepMind,Google DeepMind
+Gemini 2.5 Pro / Flash,Google DeepMind,Google DeepMind
+Gemma 4 / Gemma 3,Google DeepMind,Google DeepMind
+Imagen 3,Google DeepMind,Google DeepMind
+Veo 3 / Veo 3.1,Google DeepMind,Google DeepMind
+Lyria,Google DeepMind,Google DeepMind
+Genie 3,Google DeepMind,Google DeepMind
+NotebookLM,Google Labs,Google DeepMind
+AlphaCode 2,Google DeepMind,Google DeepMind
+Gemini Nano,Google DeepMind,Google DeepMind
+PaliGemma,Google DeepMind,Google DeepMind
+Llama 4 Maverick / Scout,Meta,Meta
+Llama 3.3 / 3.1 (8B–405B),Meta,Meta
+Code Llama,Meta,Meta
+MusicGen / AudioCraft,Meta,Meta
+V-JEPA 2,Meta,Meta
+Grok 4.3 / Grok 4,xAI,xAI
+Grok 4.1 Fast / Grok 4 Fast,xAI,xAI
+MAI-Thinking-1,Microsoft,Microsoft
+MAI-Voice-1 / MAI-Image-2 / MAI-Transcribe-1,Microsoft,Microsoft
+MAI-1 (500B preview),Microsoft,Microsoft
+Phi-4 / Phi-4-reasoning / Phi-4-mini,Microsoft,Microsoft
+Phi-3 (Mini/Medium/Vision),Microsoft,Microsoft
+WizardLM,Microsoft,Microsoft
+VALL-E,Microsoft,Microsoft
+GitHub Copilot,GitHub/Microsoft,Microsoft
+Orca 2,Microsoft Research,Microsoft
+AutoGen,Microsoft,Microsoft
+Amazon Nova Pro / Lite / Micro,Amazon,Amazon
+Amazon Titan,Amazon,Amazon
+Amazon Bedrock,Amazon,Amazon
+Amazon Q Developer,Amazon,Amazon
+Nemotron-4 340B / Nemotron-Mini,NVIDIA,NVIDIA
+Llama-3.1-Nemotron,NVIDIA,NVIDIA
+NVIDIA Cosmos,NVIDIA,NVIDIA
+DeepSeek V3 / V4 Pro,DeepSeek,DeepSeek
+DeepSeek R1,DeepSeek,DeepSeek
+DeepSeek Coder V2 / DeepCoder,DeepSeek,DeepSeek
+Janus-Pro,DeepSeek,DeepSeek
+Qwen 3 Max / 235B-A22B,Alibaba,Alibaba (Qwen)
+Qwen 3.7 Max,Alibaba,Alibaba (Qwen)
+Qwen 2.5 VL,Alibaba,Alibaba (Qwen)
+Qwen2.5-Coder / QwQ-32B,Alibaba,Alibaba (Qwen)
+Qwen3-0.6B / 1.7B / 4B,Alibaba,Alibaba (Qwen)
+Mistral Large 3,Mistral AI,Mistral AI
+Mistral Medium 3.5 / Small 4,Mistral AI,Mistral AI
+Codestral,Mistral AI,Mistral AI
+Mixtral 8x22B,Mistral AI,Mistral AI
+Pixtral,Mistral AI,Mistral AI
+MiniMax-M1 (456B MoE),MiniMax,MiniMax (Hailuo AI)
+MiniMax-Text-01 / VL-01,MiniMax,MiniMax (Hailuo AI)
+Hailuo 02 (video 1080p),MiniMax,MiniMax (Hailuo AI)
+MiniMax Speech-02 / Music-1.5,MiniMax,MiniMax (Hailuo AI)
+MiniMax Image-01,MiniMax,MiniMax (Hailuo AI)
+Kimi K2.6,Moonshot AI,Moonshot AI (Kimi)
+Kimi K1.5,Moonshot AI,Moonshot AI (Kimi)
+Command A+ (218B MoE),Cohere,Cohere
+Command R+,Cohere,Cohere
+Aya (101 languages),Cohere for AI,Cohere
+Jamba 1.6 Large / Mini,AI21 Labs,AI21 Labs
+DBRX (132B MoE),Databricks,Databricks / MosaicML
+MPT-30B / MPT-7B,MosaicML,Databricks / MosaicML
+Mosaic AI / Databricks platform,Databricks,Databricks / MosaicML
+OLMo 3 / OLMo 2 (7B–32B),Allen AI,Allen AI (AI2)
+OLMoE,Allen AI,Allen AI (AI2)
+Molmo,Allen AI,Allen AI (AI2)
+Tülu 3,Allen AI,Allen AI (AI2)
+Nous Hermes 3,Nous Research,Nous Research
+Deep Cogito (3B–70B),Deep Cogito,Nous Research
+SmolLM3 (1B–2B),HuggingFace,HuggingFace
+SmolVLM (256M–2B),HuggingFace,HuggingFace
+Zephyr 7B,HuggingFace,HuggingFace
+OpenChat 3.5,HuggingFace,HuggingFace
+HuggingFace Hub,HuggingFace,HuggingFace
+StarCoder 2 (3B–15B),BigCode,BigCode / StarCoder
+TinySwallow-1.5B,Sakana AI,Sakana AI
+Evolutionary Model Merge,Sakana AI,Sakana AI
+MiniCPM-V 4.6 (1.3B),OpenBMB,OpenBMB / MiniCPM
+MiniCPM5-1B,OpenBMB,OpenBMB / MiniCPM
+OpenELM (270M–3B),Apple,Apple
+Apple Intelligence,Apple,Apple
+ERNIE 4.5,Baidu,Chinese AI Labs
+GLM-5 / 5.1,Zhipu AI (Z.AI),Chinese AI Labs
+Yi-Lightning,01.AI (Kai-Fu Lee),Chinese AI Labs
+Hunyuan,Tencent,Chinese AI Labs
+Doubao / Seed,ByteDance,Chinese AI Labs
+InternLM 3,Shanghai AI Lab,Chinese AI Labs
+Pangu,Huawei,Chinese AI Labs
+Seedream 5,ByteDance Seed,Chinese AI Labs
+Seedance,ByteDance,Chinese AI Labs
+Sonar Pro / Sonar,Perplexity,Perplexity
+Falcon-H1 / Falcon 2,TII (UAE),TII / Falcon
+Jais 70B,G42 (UAE),TII / Falcon
+Granite (3B–34B),IBM,IBM
+SAS Viya AI,SAS,Legacy Enterprise AI
+C3.ai,C3.ai,Legacy Enterprise AI
+H2O.ai,H2O.ai,Legacy Enterprise AI
+DataRobot,DataRobot,Legacy Enterprise AI
+Dataiku,Dataiku,Legacy Enterprise AI
+Domino Data Lab,Domino,Legacy Enterprise AI
+Palantir,Palantir,Legacy Enterprise AI
+Midjourney V8.1,Midjourney,Image Generation
+FLUX.2 / FLUX.1,Black Forest Labs,Image Generation
+Stable Diffusion 3.5,Stability AI,Image Generation
+Nano Banana / Nano Banana 2,Google DeepMind (via Higgsfield/fal),Image Generation
+Ideogram 3.0,Ideogram,Image Generation
+Adobe Firefly,Adobe,Image Generation
+Recraft V4,Recraft,Image Generation
+Leonardo AI,Leonardo,Image Generation
+HiDream (open),HiDream AI,Image Generation
+Canva Magic Studio,Canva,Image Generation
+Photoroom,Photoroom,Image Generation
+Higgsfield AI,Higgsfield,Video Generation
+Runway Gen-4,Runway,Video Generation
+Pika 2.2,Pika Labs,Video Generation
+Kling 2.0 / 3.0,Kuaishou,Video Generation
+Luma AI Ray 2,Luma AI,Video Generation
+Wan 2.1 / 2.2,Wan AI,Video Generation
+PixVerse,PixVerse,Video Generation
+Vidu,Vidu,Video Generation
+Step-Video,StepFun,Video Generation
+Midjourney Video V1,Midjourney,Video Generation
+Synthesia,Synthesia,Avatar & Synthetic Video
+HeyGen,HeyGen,Avatar & Synthetic Video
+D-ID,D-ID,Avatar & Synthetic Video
+Colossyan,Colossyan,Avatar & Synthetic Video
+Captions,Captions,Avatar & Synthetic Video
+Hour One,Hour One,Avatar & Synthetic Video
+Descript,Descript,Avatar & Synthetic Video
+Pictory,Pictory,Avatar & Synthetic Video
+Arcads,Arcads,Avatar & Synthetic Video
+ElevenLabs,ElevenLabs,Audio & Music
+Suno v4,Suno,Audio & Music
+Udio,Udio,Audio & Music
+Murf.ai,Murf,Audio & Music
+Resemble AI,Resemble,Audio & Music
+PlayAI,PlayAI,Audio & Music
+Vapi AI,Vapi,Audio & Music
+AssemblyAI,AssemblyAI,Audio & Music
+Deepgram,Deepgram,Audio & Music
+Bark,Suno (open-source),Audio & Music
+Kokoro TTS,Community,Audio & Music
+World Labs — Marble,World Labs (Fei-Fei Li),World Models
+AMI Labs,Yann LeCun,World Models
+Decart / Oasis,Decart,World Models
+Odyssey,Odyssey,World Models
+General Intuition,General Intuition,World Models
+GAIA-2,Wayve,World Models
+Mercury / Mercury 2,Inception Labs,New Architectures
+SubQ-1M,Subquadratic,New Architectures
+ZAYA1-8B,Zyphra,New Architectures
+RWKV-7,Community,New Architectures
+Mamba / Mamba-2,Community,New Architectures
+Liquid LM,Liquid AI,New Architectures
+TinyLlama 1.1B,SUTD,On-Device / Edge Models
+MobileLLaMA 1.4B,Community,On-Device / Edge Models
+LaMini-GPT (774M–1.5B),Community,On-Device / Edge Models
+Sarvam 30B / 105B,Sarvam AI (India),Sovereign & Regional Models
+EXAONE 3.5,LG AI Research,Sovereign & Regional Models
+HyperCLOVA X,NAVER,Sovereign & Regional Models
+Aleph Alpha Luminous,Aleph Alpha,Sovereign & Regional Models
+Salamandra,Barcelona Supercomputing,Sovereign & Regional Models
+SEALLM,Community,Sovereign & Regional Models
+Vikhr,Community,Sovereign & Regional Models
+Bloom,BigScience,Sovereign & Regional Models
+Dicta-LM 3.0,Hebrew University,Sovereign & Regional Models
+Poro,Finnish NLP,Sovereign & Regional Models
+fal.ai,fal.ai,Inference & Infrastructure
+Together AI,Together AI,Inference & Infrastructure
+Fireworks AI,Fireworks AI,Inference & Infrastructure
+Baseten,Baseten,Inference & Infrastructure
+Replicate,Replicate,Inference & Infrastructure
+Modal,Modal,Inference & Infrastructure
+OctoAI,OctoAI,Inference & Infrastructure
+DeepInfra,DeepInfra,Inference & Infrastructure
+SambaNova,SambaNova,Inference & Infrastructure
+OpenRouter,OpenRouter,Inference & Infrastructure
+RunPod,RunPod,Inference & Infrastructure
+Hyperbolic,Hyperbolic,Inference & Infrastructure
+Nebius,Nebius,Inference & Infrastructure
+SiliconFlow,SiliconFlow,Inference & Infrastructure
+Anyscale,Anyscale,Inference & Infrastructure
+vLLM,Community,Inference & Infrastructure
+SGLang,Community,Inference & Infrastructure
+Ollama,Ollama,Inference & Infrastructure
+LiteLLM,BerriAI,Inference & Infrastructure
+Groq LPU,Groq,Hardware
+Cerebras WSE,Cerebras,Hardware
+SambaNova RDU,SambaNova,Hardware
+Tenstorrent,Tenstorrent,Hardware
+Graphcore IPU,Graphcore,Hardware
+Etched,Etched,Hardware
+d-Matrix,d-Matrix,Hardware
+Mythic,Mythic,Hardware
+Untether AI,Untether AI,Hardware
+Scale AI,Scale AI,Data & MLOps
+Weights & Biases,Weights & Biases,Data & MLOps
+Labelbox,Labelbox,Data & MLOps
+Snorkel AI,Snorkel AI,Data & MLOps
+Arize AI,Arize AI,Data & MLOps
+Langfuse,Langfuse,Data & MLOps
+Braintrust,Braintrust,Data & MLOps
+Patronus AI,Patronus AI,Data & MLOps
+Galileo,Galileo,Data & MLOps
+Cleanlab,Cleanlab,Data & MLOps
+Encord,Encord,Data & MLOps
+Argilla,Argilla,Data & MLOps
+WhyLabs,WhyLabs,Data & MLOps
+Pinecone,Pinecone,Vector Databases & RAG
+Weaviate,Weaviate,Vector Databases & RAG
+Milvus / Zilliz,Zilliz,Vector Databases & RAG
+Qdrant,Qdrant,Vector Databases & RAG
+Chroma,Chroma,Vector Databases & RAG
+LanceDB,LanceDB,Vector Databases & RAG
+Vectara,Vectara,Vector Databases & RAG
+LangChain,LangChain,Open-Source Frameworks
+LlamaIndex,LlamaIndex,Open-Source Frameworks
+CrewAI,CrewAI,Open-Source Frameworks
+DSPy,Stanford NLP,Open-Source Frameworks
+Haystack,deepset,Open-Source Frameworks
+Flowise,Flowise,Open-Source Frameworks
+Axolotl,Community,Open-Source Frameworks
+Unsloth,Unsloth,Open-Source Frameworks
+Outlines,Outlines,Open-Source Frameworks
+OpenHands,All-Hands.ai,Open-Source Frameworks
+SWE-agent,Princeton NLP,Open-Source Frameworks
+xLAM,Salesforce AI Research,Open-Source Frameworks
+Gorilla OpenFunctions,UC Berkeley,Open-Source Frameworks
+n8n,n8n,Automation & Agents
+Relevance AI,Relevance AI,Automation & Agents
+Gumloop,Gumloop,Automation & Agents
+Zapier,Zapier,Automation & Agents
+Make (Integromat),Make,Automation & Agents
+Lindy AI,Lindy,Automation & Agents
+Activepieces,Activepieces,Automation & Agents
+Sierra,Sierra,Automation & Agents
+Decagon,Decagon,Automation & Agents
+Taskade,Taskade,Automation & Agents
+Glean (Waldo model),Glean,Automation & Agents
+Cursor,Anysphere,Code & Dev Tools
+Windsurf (Codeium),Codeium,Code & Dev Tools
+Devin,Cognition AI,Code & Dev Tools
+CodeRabbit,CodeRabbit,Code & Dev Tools
+Greptile,Greptile,Code & Dev Tools
+Qodo (Merge),Qodo,Code & Dev Tools
+Continue.dev,Continue,Code & Dev Tools
+Sweep AI,Sweep,Code & Dev Tools
+Tabnine,Tabnine,Code & Dev Tools
+Sourcegraph Cody,Sourcegraph,Code & Dev Tools
+Poolside Maven,Poolside,Code & Dev Tools
+Harness,Harness,Code & Dev Tools
+Lovable,Lovable,No-Code / App Builders
+Bolt.new,StackBlitz,No-Code / App Builders
+v0 (Vercel),Vercel,No-Code / App Builders
+Replit Agent,Replit,No-Code / App Builders
+Bubble,Bubble,No-Code / App Builders
+Softr,Softr,No-Code / App Builders
+Base44 (→ Wix),Base44,No-Code / App Builders
+FlutterFlow,FlutterFlow,No-Code / App Builders
+Glide,Glide,No-Code / App Builders
+MindStudio,MindStudio,No-Code / App Builders
+Pickaxe,Pickaxe,No-Code / App Builders
+Stack AI,Stack AI,No-Code / App Builders
+Poe (by Quora),Quora,Multi-Model Aggregators
+TypingMind,TypingMind,Multi-Model Aggregators
+Aymo AI (ex-Geeky.chat),Aymo,Multi-Model Aggregators
+Mammouth AI,Mammouth,Multi-Model Aggregators
+MagAI,MagAI,Multi-Model Aggregators
+EaseMate AI,EaseMate,Multi-Model Aggregators
+TeamAI,TeamAI,Multi-Model Aggregators
+Monica AI,Monica,Multi-Model Aggregators
+You.com,You.com,Multi-Model Aggregators
+Gamma,Gamma,Presentations & Docs
+Napkin AI,Napkin,Presentations & Docs
+Beautiful.ai,Beautiful.ai,Presentations & Docs
+Slidebean,Slidebean,Presentations & Docs
+Notion AI,Notion,Presentations & Docs
+Grammarly,Grammarly,Presentations & Docs
+Jasper AI,Jasper,Presentations & Docs
+Copy.ai,Copy.ai,Presentations & Docs
+Writesonic,Writesonic,Presentations & Docs
+Typeface,Typeface,Presentations & Docs
+Fathom,Fathom,Meeting Intelligence
+Otter.ai,Otter,Meeting Intelligence
+Fireflies.ai,Fireflies,Meeting Intelligence
+Gong,Gong,Meeting Intelligence
+Grain,Grain,Meeting Intelligence
+tl;dv,tl;dv,Meeting Intelligence
+Read.ai,Read.ai,Meeting Intelligence
+Krisp,Krisp,Meeting Intelligence
+ManyChat,ManyChat,Chatbots & Marketing
+Botpress,Botpress,Chatbots & Marketing
+Voiceflow,Voiceflow,Chatbots & Marketing
+Intercom Fin,Intercom,Chatbots & Marketing
+Chatfuel,Chatfuel,Chatbots & Marketing
+Tidio,Tidio,Chatbots & Marketing
+Character.AI,Character.AI,Chatbots & Marketing
+Hippocratic AI,Hippocratic AI,Vertical AI — Healthcare
+Abridge,Abridge,Vertical AI — Healthcare
+Ambience Healthcare,Ambience,Vertical AI — Healthcare
+Nuance DAX,Microsoft,Vertical AI — Healthcare
+Glass Health,Glass Health,Vertical AI — Healthcare
+Tempus AI,Tempus,Vertical AI — Healthcare
+Viz.ai,Viz.ai,Vertical AI — Healthcare
+Wysa,Wysa,Vertical AI — Healthcare
+Harvey AI,Harvey AI,Vertical AI — Legal & Finance
+EvenUp,EvenUp,Vertical AI — Legal & Finance
+Ramp,Ramp,Vertical AI — Legal & Finance
+Kensho,S&P Global,Vertical AI — Legal & Finance
+Manus (→ Meta),Monica.im,Acquisitions & Pivots
+Cerebras (→ OpenAI),Cerebras,Acquisitions & Pivots
+Groq (→ NVIDIA),Groq,Acquisitions & Pivots
+Inflection Pi (→ Microsoft),Inflection AI,Acquisitions & Pivots
+Adept AI (→ Amazon),Adept AI,Acquisitions & Pivots
+Moveworks (→ ServiceNow),Moveworks,Acquisitions & Pivots
+Base44 (→ Wix),Base44,Acquisitions & Pivots
+Graphite (→ Cursor),Graphite,Acquisitions & Pivots
+Tome (deprecated),Tome,Acquisitions & Pivots
+Claude Opus 5,Anthropic,Anthropic
+Kimi K3 Open Weights,Moonshot AI,Moonshot AI (Kimi)
+MAI-Cyber-1-Flash,Microsoft,Microsoft

@@ -1,0 +1,11 @@
+{
+  "python_path": "",
+  "email_recipients": [
+    "your.name@company.com"
+  ],
+  "subscribe_url": "https://replace-with-your-subscription-or-newsletter-url.example",
+  "approve_public_model_search": false,
+  "publish_website": false,
+  "github_repository_url": "https://github.com/YOUR-GITHUB-USER/nvidia-ai-dictionary.git",
+  "github_branch": "main"
+}

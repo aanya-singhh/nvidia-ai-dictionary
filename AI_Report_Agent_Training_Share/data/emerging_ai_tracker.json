@@ -1,0 +1,144 @@
+{
+  "threshold_weeks": 3,
+  "tracked_models": {
+    "MiniMax M3": {
+      "company": "MiniMax",
+      "consecutive_weeks": 3,
+      "last_seen_week": "2026-06-15",
+      "latest_note": "MiniMax launched M3 as a new multimodal frontier model aimed at long-context coding and agent work.",
+      "latest_source_url": "https://www.minimax.io/blog/minimax-m3"
+    },
+    "Qwen3.7-Plus": {
+      "company": "Alibaba Qwen",
+      "consecutive_weeks": 3,
+      "last_seen_week": "2026-06-15",
+      "latest_note": "Alibaba released Qwen3.7-Plus as a multimodal agent-focused model, extending Qwen beyond pure text workflows.",
+      "latest_source_url": "https://qwen.ai/"
+    },
+    "Mistral Vibe": {
+      "company": "Mistral AI",
+      "consecutive_weeks": 1,
+      "last_seen_week": "2026-05-28",
+      "latest_note": "Mistral repositioned Vibe as one agent for both work tasks and coding, with a stronger emphasis on long-running sessions and connected tools.",
+      "latest_source_url": "https://mistral.ai/fr/news/vibe-agent/"
+    },
+    "Notion Workers": {
+      "company": "Notion",
+      "consecutive_weeks": 1,
+      "last_seen_week": "2026-05-28",
+      "latest_note": "Notion\u2019s latest developer-platform rollout pushes its AI stack toward more programmable workplace automation through Workers and agent tooling.",
+      "latest_source_url": "https://www.notion.com/releases"
+    },
+    "DeepSeek V4.1": {
+      "company": "DeepSeek",
+      "consecutive_weeks": 3,
+      "last_seen_week": "2026-06-15",
+      "latest_note": "DeepSeek still has not confirmed a new public release this week, but V4.1 chatter remains strong enough to keep it in the rumor lane.",
+      "latest_source_url": "https://api-docs.deepseek.com/updates/"
+    },
+    "Siri + Gemini Partnership": {
+      "company": "Apple / Google",
+      "consecutive_weeks": 3,
+      "last_seen_week": "2026-06-15",
+      "latest_note": "Fresh WWDC-week reporting strengthened the view that Apple\u2019s next Siri experience will rely on Gemini, making this a notable market-shaping AI distribution story.",
+      "latest_source_url": "https://www.macrumors.com/guide/gemini/"
+    },
+    "GPT-5.5-Cyber": {
+      "company": "OpenAI",
+      "consecutive_weeks": 1,
+      "last_seen_week": "2026-06-15",
+      "latest_note": "OpenAI's GPT-5.5-Cyber was the most concrete new model signal in the June 15-22 window, though access is intentionally restricted.",
+      "latest_source_url": "https://www.axios.com/2026/06/22/openai-rolls-out-more-capable-version-of-cyber-model"
+    },
+    "GPT-5.6 Sol / Terra / Luna": {
+      "company": "OpenAI",
+      "consecutive_weeks": 1,
+      "last_seen_week": "2026-06-22",
+      "latest_note": "GPT-5.6 was the clearest new model release of the week, with staged access and three reported variants.",
+      "latest_source_url": "https://www.theverge.com/ai-artificial-intelligence/957845/openai-gpt-5-6-trump-administration-ai-preview"
+    },
+    "Claude Mythos 5 / Fable 5": {
+      "company": "Anthropic",
+      "consecutive_weeks": 1,
+      "last_seen_week": "2026-06-22",
+      "latest_note": "Anthropic's Mythos and Fable models moved back toward limited availability after government restrictions, making them active again in this week's model-watch lane.",
+      "latest_source_url": "https://www.axios.com/2026/06/27/commerce-anthropic-mythos-restrictions-lift"
+    },
+    "Claude Sonnet 5": {
+      "company": "Anthropic",
+      "consecutive_weeks": 1,
+      "last_seen_week": "2026-06-29",
+      "latest_note": "Sonnet 5 is the week's clearest new model release, combining stronger agentic execution with broad product and API availability.",
+      "latest_source_url": "https://www.anthropic.com/news/claude-sonnet-5"
+    },
+    "Gemma 4 12B and Gemini Omni Flash": {
+      "company": "Google",
+      "consecutive_weeks": 1,
+      "last_seen_week": "2026-06-29",
+      "latest_note": "Google highlighted two complementary model directions: Gemma 4 12B for local multimodal agents and Gemini Omni Flash for API-based video workflows.",
+      "latest_source_url": "https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-june-2026/"
+    },
+    "Leanstral 1.5": {
+      "company": "Mistral AI",
+      "consecutive_weeks": 1,
+      "last_seen_week": "2026-06-29",
+      "latest_note": "Leanstral 1.5 adds a distinct specialized-model story to a week otherwise dominated by general agents and multimodal assistants.",
+      "latest_source_url": "https://docs.mistral.ai/resources/changelogs"
+    },
+    "Kimi K2.7 Code": {
+      "company": "Moonshot AI",
+      "consecutive_weeks": 1,
+      "last_seen_week": "2026-06-29",
+      "latest_note": "Kimi K2.7 Code expanded the competitive coding-model landscape by becoming GitHub Copilot's first selectable open-weight model.",
+      "latest_source_url": "https://github.blog/changelog/month/07-2026/"
+    },
+    "Gemma 4 31B Voice Stack": {
+      "company": "Google DeepMind, Hugging Face, and Cerebras",
+      "consecutive_weeks": 1,
+      "last_seen_week": "2026-06-29",
+      "latest_note": "Gemma 4 31B gained a concrete real-time voice deployment pattern through the Hugging Face and Cerebras open stack.",
+      "latest_source_url": "https://huggingface.co/blog/cerebras-gemma4-voice-ai"
+    },
+    "Claude Opus 5": {
+      "company": "Anthropic",
+      "consecutive_weeks": 1,
+      "last_seen_week": "2026-07-20",
+      "latest_note": "Anthropic released Claude Opus 5 with adaptive effort, a one-million-token context window, and broad platform availability.",
+      "latest_source_url": "https://www.anthropic.com/news/introducing-claude-opus-5"
+    },
+    "Kimi K3 Open Weights": {
+      "company": "Moonshot AI",
+      "consecutive_weeks": 1,
+      "last_seen_week": "2026-07-20",
+      "latest_note": "Moonshot AI released Kimi K3 model weights, code, and a technical report through GitHub and Hugging Face.",
+      "latest_source_url": "https://github.com/MoonshotAI/Kimi-K3"
+    },
+    "MAI-Cyber-1-Flash": {
+      "company": "Microsoft",
+      "consecutive_weeks": 1,
+      "last_seen_week": "2026-07-20",
+      "latest_note": "Microsoft introduced MAI-Cyber-1-Flash as the first specialized model used in Project Perception's MDASH security stack.",
+      "latest_source_url": "https://blogs.microsoft.com/blog/2026/07/27/rethinking-security-for-the-age-of-ai/"
+    },
+    "NVIDIA Cosmos 3 Edge": {
+      "company": "NVIDIA",
+      "consecutive_weeks": 1,
+      "last_seen_week": "2026-07-20",
+      "latest_note": "NVIDIA released Cosmos 3 Edge, a four-billion-parameter world model designed for real-time on-device physical AI.",
+      "latest_source_url": "https://blogs.nvidia.com/blog/siggraph-news-2026/"
+    }
+  },
+  "up_and_coming_watchlist": [
+    "MiniMax M3",
+    "Qwen3.7-Plus",
+    "DeepSeek V4.1",
+    "Siri + Gemini Partnership"
+  ],
+  "last_processed_week": "2026-07-20",
+  "active_this_week": [
+    "Claude Opus 5",
+    "Kimi K3 Open Weights",
+    "MAI-Cyber-1-Flash",
+    "NVIDIA Cosmos 3 Edge"
+  ]
+}

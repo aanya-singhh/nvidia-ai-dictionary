@@ -1,0 +1,6 @@
+local_config.json
+.github_publish/
+output/*
+!output/README.md
+**/__pycache__/
+*.pyc

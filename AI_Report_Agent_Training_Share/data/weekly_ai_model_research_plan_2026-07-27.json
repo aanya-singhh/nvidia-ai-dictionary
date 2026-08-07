@@ -1,0 +1,3078 @@
+{
+  "date_range": {
+    "start": "2026-07-20",
+    "end": "2026-07-27",
+    "display": "July 20, 2026 - July 27, 2026"
+  },
+  "source": "ai-models.csv",
+  "model_count": 334,
+  "section_counts": {
+    "AI21 Labs": 1,
+    "Acquisitions & Pivots": 9,
+    "Alibaba (Qwen)": 5,
+    "Allen AI (AI2)": 4,
+    "Amazon": 4,
+    "Anthropic": 6,
+    "Apple": 2,
+    "Audio & Music": 11,
+    "Automation & Agents": 11,
+    "Avatar & Synthetic Video": 9,
+    "BigCode / StarCoder": 1,
+    "Chatbots & Marketing": 7,
+    "Chinese AI Labs": 9,
+    "Code & Dev Tools": 12,
+    "Cohere": 3,
+    "Data & MLOps": 13,
+    "Databricks / MosaicML": 3,
+    "DeepSeek": 4,
+    "Google DeepMind": 12,
+    "Hardware": 9,
+    "HuggingFace": 5,
+    "IBM": 1,
+    "Image Generation": 11,
+    "Inference & Infrastructure": 19,
+    "Legacy Enterprise AI": 7,
+    "Meeting Intelligence": 8,
+    "Meta": 5,
+    "Microsoft": 11,
+    "MiniMax (Hailuo AI)": 5,
+    "Mistral AI": 5,
+    "Moonshot AI (Kimi)": 3,
+    "Multi-Model Aggregators": 9,
+    "NVIDIA": 3,
+    "New Architectures": 6,
+    "No-Code / App Builders": 12,
+    "Nous Research": 2,
+    "On-Device / Edge Models": 3,
+    "Open-Source Frameworks": 13,
+    "OpenAI": 7,
+    "OpenBMB / MiniCPM": 2,
+    "Perplexity": 1,
+    "Presentations & Docs": 10,
+    "Sakana AI": 2,
+    "Sovereign & Regional Models": 10,
+    "TII / Falcon": 2,
+    "Vector Databases & RAG": 7,
+    "Vertical AI \u2014 Healthcare": 8,
+    "Vertical AI \u2014 Legal & Finance": 4,
+    "Video Generation": 10,
+    "World Models": 6,
+    "xAI": 2
+  },
+  "rules": [
+    "Only include a model/tool if the update itself is dated inside the report window.",
+    "Do not carry forward prior-week model entries unless there is a new in-window update.",
+    "Prefer primary sources: official blogs, release notes, docs, changelogs, papers, or company announcements.",
+    "Use reputable reporting only when the primary source is unavailable, restricted, or the item is explicitly a rumor/watch item.",
+    "If a CSV model has no in-window update, omit it from the report.",
+    "A dated inquiry ledger must contain a terminal outcome for every live CSV target before report generation."
+  ],
+  "models": [
+    {
+      "name": "GPT-5.5 / GPT-5",
+      "maker": "OpenAI",
+      "section": "OpenAI",
+      "queries": [
+        "\"GPT-5.5 / GPT-5\" \"OpenAI\" (release OR launched OR announced OR preview OR beta OR benchmark OR update OR changelog OR safety) after:2026-07-20 before:2026-07-28",
+        "site:openai.com \"GPT-5.5 / GPT-5\" \"2026\" \"July\""
+      ]
+    },
+    {
+      "name": "GPT-4o",
+      "maker": "OpenAI",
+      "section": "OpenAI",
+      "queries": [
+        "\"GPT-4o\" \"OpenAI\" (release OR launched OR announced OR preview OR beta OR benchmark OR update OR changelog OR safety) after:2026-07-20 before:2026-07-28",
+        "site:openai.com \"GPT-4o\" \"2026\" \"July\""
+      ]
+    },
+    {
+      "name": "o3 / o4-mini",
+      "maker": "OpenAI",
+      "section": "OpenAI",
+      "queries": [
+        "\"o3 / o4-mini\" \"OpenAI\" (release OR launched OR announced OR preview OR beta OR benchmark OR update OR changelog OR safety) after:2026-07-20 before:2026-07-28",
+        "site:openai.com \"o3 / o4-mini\" \"2026\" \"July\""
+      ]
+    },
+    {
+      "name": "GPT Image 2",
+      "maker": "OpenAI",
+      "section": "OpenAI",
+      "queries": [
+        "\"GPT Image 2\" \"OpenAI\" (release OR launched OR announced OR preview OR beta OR benchmark OR update OR changelog OR safety) after:2026-07-20 before:2026-07-28",
+        "site:openai.com \"GPT Image 2\" \"2026\" \"July\""
+      ]
+    },
+    {
+      "name": "Sora / Sora 2",
+      "maker": "OpenAI",
+      "section": "OpenAI",
+      "queries": [
+        "\"Sora / Sora 2\" \"OpenAI\" (release OR launched OR announced OR preview OR beta OR benchmark OR update OR changelog OR safety) after:2026-07-20 before:2026-07-28",
+        "site:openai.com \"Sora / Sora 2\" \"2026\" \"July\""
+      ]
+    },
+    {
+      "name": "Whisper",
+      "maker": "OpenAI",
+      "section": "OpenAI",
+      "queries": [
+        "\"Whisper\" \"OpenAI\" (release OR launched OR announced OR preview OR beta OR benchmark OR update OR changelog OR safety) after:2026-07-20 before:2026-07-28",
+        "site:openai.com \"Whisper\" \"2026\" \"July\""
+      ]
+    },
+    {
+      "name": "Codex",
+      "maker": "OpenAI",
+      "section": "OpenAI",
+      "queries": [
+        "\"Codex\" \"OpenAI\" (release OR launched OR announced OR preview OR beta OR benchmark OR update OR changelog OR safety) after:2026-07-20 before:2026-07-28",
+        "site:openai.com \"Codex\" \"2026\" \"July\""
+      ]
+    },
+    {
+      "name": "Claude Opus 4.8 / 4.7 / 4.6",
+      "maker": "Anthropic",
+      "section": "Anthropic",
+      "queries": [
+        "\"Claude Opus 4.8 / 4.7 / 4.6\" \"Anthropic\" (release OR launched OR announced OR preview OR beta OR benchmark OR update OR changelog OR safety) after:2026-07-20 before:2026-07-28",
+        "site:anthropic.com \"Claude Opus 4.8 / 4.7 / 4.6\" \"2026\" \"July\""
+      ]
+    },
+    {
+      "name": "Claude Sonnet 4.6",
+      "maker": "Anthropic",
+      "section": "Anthropic",
+      "queries": [
+        "\"Claude Sonnet 4.6\" \"Anthropic\" (release OR launched OR announced OR preview OR beta OR benchmark OR update OR changelog OR safety) after:2026-07-20 before:2026-07-28",
+        "site:anthropic.com \"Claude Sonnet 4.6\" \"2026\" \"July\""
+      ]
+    },
+    {
+      "name": "Claude Haiku 4.5",
+      "maker": "Anthropic",
+      "section": "Anthropic",
+      "queries": [
+        "\"Claude Haiku 4.5\" \"Anthropic\" (release OR launched OR announced OR preview OR beta OR benchmark OR update OR changelog OR safety) after:2026-07-20 before:2026-07-28",
+        "site:anthropic.com \"Claude Haiku 4.5\" \"2026\" \"July\""
+      ]
+    },
+    {
+      "name": "Claude Mythos Preview",
+      "maker": "Anthropic",
+      "section": "Anthropic",
+      "queries": [
+        "\"Claude Mythos Preview\" \"Anthropic\" (release OR launched OR announced OR preview OR beta OR benchmark OR update OR changelog OR safety) after:2026-07-20 before:2026-07-28",
+        "site:anthropic.com \"Claude Mythos Preview\" \"2026\" \"July\""
+      ]
+    },
+    {
+      "name": "Claude Code",
+      "maker": "Anthropic",
+      "section": "Anthropic",
+      "queries": [
+        "\"Claude Code\" \"Anthropic\" (release OR launched OR announced OR preview OR beta OR benchmark OR update OR changelog OR safety) after:2026-07-20 before:2026-07-28",
+        "site:anthropic.com \"Claude Code\" \"2026\" \"July\""
+      ]
+    },
+    {
+      "name": "Gemini 3.1 Pro Preview",
+      "maker": "Google DeepMind",
+      "section": "Google DeepMind",
+      "queries": [
+        "\"Gemini 3.1 Pro Preview\" \"Google DeepMind\" (release OR launched OR announced OR preview OR beta OR benchmark OR update OR changelog OR safety) after:2026-07-20 before:2026-07-28",
+        "site:blog.google \"Gemini 3.1 Pro Preview\" \"2026\" \"July\""
+      ]
+    },
+    {
+      "name": "Gemini 3 Pro / Flash",
+      "maker": "Google DeepMind",
+      "section": "Google DeepMind",
+      "queries": [
+        "\"Gemini 3 Pro / Flash\" \"Google DeepMind\" (release OR launched OR announced OR preview OR beta OR benchmark OR update OR changelog OR safety) after:2026-07-20 before:2026-07-28",
+        "site:blog.google \"Gemini 3 Pro / Flash\" \"2026\" \"July\""
+      ]
+    },
+    {
+      "name": "Gemini 2.5 Pro / Flash",
+      "maker": "Google DeepMind",
+      "section": "Google DeepMind",
+      "queries": [
+        "\"Gemini 2.5 Pro / Flash\" \"Google DeepMind\" (release OR launched OR announced OR preview OR beta OR benchmark OR update OR changelog OR safety) after:2026-07-20 before:2026-07-28",
+        "site:blog.google \"Gemini 2.5 Pro / Flash\" \"2026\" \"July\""
+      ]
+    },
+    {
+      "name": "Gemma 4 / Gemma 3",
+      "maker": "Google DeepMind",
+      "section": "Google DeepMind",
+      "queries": [
+        "\"Gemma 4 / Gemma 3\" \"Google DeepMind\" (release OR launched OR announced OR preview OR beta OR benchmark OR update OR changelog OR safety) after:2026-07-20 before:2026-07-28",
+        "site:blog.google \"Gemma 4 / Gemma 3\" \"2026\" \"July\""
+      ]
+    },
+    {
+      "name": "Imagen 3",
+      "maker": "Google DeepMind",
+      "section": "Google DeepMind",
+      "queries": [
+        "\"Imagen 3\" \"Google DeepMind\" (release OR launched OR announced OR preview OR beta OR benchmark OR update OR changelog OR safety) after:2026-07-20 before:2026-07-28",
+        "site:blog.google \"Imagen 3\" \"2026\" \"July\""
+      ]
+    },
+    {
+      "name": "Veo 3 / Veo 3.1",
+      "maker": "Google DeepMind",
+      "section": "Google DeepMind",
+      "queries": [
+        "\"Veo 3 / Veo 3.1\" \"Google DeepMind\" (release OR launched OR announced OR preview OR beta OR benchmark OR update OR changelog OR safety) after:2026-07-20 before:2026-07-28",
+        "site:blog.google \"Veo 3 / Veo 3.1\" \"2026\" \"July\""
+      ]
+    },
+    {
+      "name": "Lyria",
+      "maker": "Google DeepMind",
+      "section": "Google DeepMind",
+      "queries": [
+        "\"Lyria\" \"Google DeepMind\" (release OR launched OR announced OR preview OR beta OR benchmark OR update OR changelog OR safety) after:2026-07-20 before:2026-07-28",
+        "site:blog.google \"Lyria\" \"2026\" \"July\""
+      ]
+    },
+    {
+      "name": "Genie 3",
+      "maker": "Google DeepMind",
+      "section": "Google DeepMind",
+      "queries": [
+        "\"Genie 3\" \"Google DeepMind\" (release OR launched OR announced OR preview OR beta OR benchmark OR update OR changelog OR safety) after:2026-07-20 before:2026-07-28",
+        "site:blog.google \"Genie 3\" \"2026\" \"July\""
+      ]
+    },
+    {
+      "name": "NotebookLM",
+      "maker": "Google Labs",
+      "section": "Google DeepMind",
+      "queries": [
+        "\"NotebookLM\" \"Google Labs\" (release OR launched OR announced OR preview OR beta OR benchmark OR update OR changelog OR safety) after:2026-07-20 before:2026-07-28",
+        "site:blog.google \"NotebookLM\" \"2026\" \"July\""
+      ]
+    },
+    {
+      "name": "AlphaCode 2",
+      "maker": "Google DeepMind",
+      "section": "Google DeepMind",
+      "queries": [
+        "\"AlphaCode 2\" \"Google DeepMind\" (release OR launched OR announced OR preview OR beta OR benchmark OR update OR changelog OR safety) after:2026-07-20 before:2026-07-28",
+        "site:blog.google \"AlphaCode 2\" \"2026\" \"July\""
+      ]
+    },
+    {
+      "name": "Gemini Nano",
+      "maker": "Google DeepMind",
+      "section": "Google DeepMind",
+      "queries": [
+        "\"Gemini Nano\" \"Google DeepMind\" (release OR launched OR announced OR preview OR beta OR benchmark OR update OR changelog OR safety) after:2026-07-20 before:2026-07-28",
+        "site:blog.google \"Gemini Nano\" \"2026\" \"July\""
+      ]
+    },
+    {
+      "name": "PaliGemma",
+      "maker": "Google DeepMind",
+      "section": "Google DeepMind",
+      "queries": [
+        "\"PaliGemma\" \"Google DeepMind\" (release OR launched OR announced OR preview OR beta OR benchmark OR update OR changelog OR safety) after:2026-07-20 before:2026-07-28",
+        "site:blog.google \"PaliGemma\" \"2026\" \"July\""
+      ]
+    },
+    {
+      "name": "Llama 4 Maverick / Scout",
+      "maker": "Meta",
+      "section": "Meta",
+      "queries": [
+        "\"Llama 4 Maverick / Scout\" \"Meta\" (release OR launched OR announced OR preview OR beta OR benchmark OR update OR changelog OR safety) after:2026-07-20 before:2026-07-28",
+        "site:ai.meta.com \"Llama 4 Maverick / Scout\" \"2026\" \"July\""
+      ]
+    },
+    {
+      "name": "Llama 3.3 / 3.1 (8B\u2013405B)",
+      "maker": "Meta",
+      "section": "Meta",
+      "queries": [
+        "\"Llama 3.3 / 3.1 (8B\u2013405B)\" \"Meta\" (release OR launched OR announced OR preview OR beta OR benchmark OR update OR changelog OR safety) after:2026-07-20 before:2026-07-28",
+        "site:ai.meta.com \"Llama 3.3 / 3.1 (8B\u2013405B)\" \"2026\" \"July\""
+      ]
+    },
+    {
+      "name": "Code Llama",
+      "maker": "Meta",
+      "section": "Meta",
+      "queries": [
+        "\"Code Llama\" \"Meta\" (release OR launched OR announced OR preview OR beta OR benchmark OR update OR changelog OR safety) after:2026-07-20 before:2026-07-28",
+        "site:ai.meta.com \"Code Llama\" \"2026\" \"July\""
+      ]
+    },
+    {
+      "name": "MusicGen / AudioCraft",
+      "maker": "Meta",
+      "section": "Meta",
+      "queries": [
+        "\"MusicGen / AudioCraft\" \"Meta\" (release OR launched OR announced OR preview OR beta OR benchmark OR update OR changelog OR safety) after:2026-07-20 before:2026-07-28",
+        "site:ai.meta.com \"MusicGen / AudioCraft\" \"2026\" \"July\""
+      ]
+    },
+    {
+      "name": "V-JEPA 2",
+      "maker": "Meta",
+      "section": "Meta",
+      "queries": [
+        "\"V-JEPA 2\" \"Meta\" (release OR launched OR announced OR preview OR beta OR benchmark OR update OR changelog OR safety) after:2026-07-20 before:2026-07-28",
+        "site:ai.meta.com \"V-JEPA 2\" \"2026\" \"July\""
+      ]
+    },
+    {
+      "name": "Grok 4.3 / Grok 4",
+      "maker": "xAI",
+      "section": "xAI",
+      "queries": [
+        "\"Grok 4.3 / Grok 4\" \"xAI\" (release OR launched OR announced OR preview OR beta OR benchmark OR update OR changelog OR safety) after:2026-07-20 before:2026-07-28",
+        "site:x.ai \"Grok 4.3 / Grok 4\" \"2026\" \"July\""
+      ]
+    },
+    {
+      "name": "Grok 4.1 Fast / Grok 4 Fast",
+      "maker": "xAI",
+      "section": "xAI",
+      "queries": [
+        "\"Grok 4.1 Fast / Grok 4 Fast\" \"xAI\" (release OR launched OR announced OR preview OR beta OR benchmark OR update OR changelog OR safety) after:2026-07-20 before:2026-07-28",
+        "site:x.ai \"Grok 4.1 Fast / Grok 4 Fast\" \"2026\" \"July\""
+      ]
+    },
+    {
+      "name": "MAI-Thinking-1",
+      "maker": "Microsoft",
+      "section": "Microsoft",
+      "queries": [
+        "\"MAI-Thinking-1\" \"Microsoft\" (release OR launched OR announced OR preview OR beta OR benchmark OR update OR changelog OR safety) after:2026-07-20 before:2026-07-28",
+        "site:microsoft.com \"MAI-Thinking-1\" \"2026\" \"July\""
+      ]
+    },
+    {
+      "name": "MAI-Voice-1 / MAI-Image-2 / MAI-Transcribe-1",
+      "maker": "Microsoft",
+      "section": "Microsoft",
+      "queries": [
+        "\"MAI-Voice-1 / MAI-Image-2 / MAI-Transcribe-1\" \"Microsoft\" (release OR launched OR announced OR preview OR beta OR benchmark OR update OR changelog OR safety) after:2026-07-20 before:2026-07-28",
+        "site:microsoft.com \"MAI-Voice-1 / MAI-Image-2 / MAI-Transcribe-1\" \"2026\" \"July\""
+      ]
+    },
+    {
+      "name": "MAI-1 (500B preview)",
+      "maker": "Microsoft",
+      "section": "Microsoft",
+      "queries": [
+        "\"MAI-1 (500B preview)\" \"Microsoft\" (release OR launched OR announced OR preview OR beta OR benchmark OR update OR changelog OR safety) after:2026-07-20 before:2026-07-28",
+        "site:microsoft.com \"MAI-1 (500B preview)\" \"2026\" \"July\""
+      ]
+    },
+    {
+      "name": "Phi-4 / Phi-4-reasoning / Phi-4-mini",
+      "maker": "Microsoft",
+      "section": "Microsoft",
+      "queries": [
+        "\"Phi-4 / Phi-4-reasoning / Phi-4-mini\" \"Microsoft\" (release OR launched OR announced OR preview OR beta OR benchmark OR update OR changelog OR safety) after:2026-07-20 before:2026-07-28",
+        "site:microsoft.com \"Phi-4 / Phi-4-reasoning / Phi-4-mini\" \"2026\" \"July\""
+      ]
+    },
+    {
+      "name": "Phi-3 (Mini/Medium/Vision)",
+      "maker": "Microsoft",
+      "section": "Microsoft",
+      "queries": [
+        "\"Phi-3 (Mini/Medium/Vision)\" \"Microsoft\" (release OR launched OR announced OR preview OR beta OR benchmark OR update OR changelog OR safety) after:2026-07-20 before:2026-07-28",
+        "site:microsoft.com \"Phi-3 (Mini/Medium/Vision)\" \"2026\" \"July\""
+      ]
+    },
+    {
+      "name": "WizardLM",
+      "maker": "Microsoft",
+      "section": "Microsoft",
+      "queries": [
+        "\"WizardLM\" \"Microsoft\" (release OR launched OR announced OR preview OR beta OR benchmark OR update OR changelog OR safety) after:2026-07-20 before:2026-07-28",
+        "site:microsoft.com \"WizardLM\" \"2026\" \"July\""
+      ]
+    },
+    {
+      "name": "VALL-E",
+      "maker": "Microsoft",
+      "section": "Microsoft",
+      "queries": [
+        "\"VALL-E\" \"Microsoft\" (release OR launched OR announced OR preview OR beta OR benchmark OR update OR changelog OR safety) after:2026-07-20 before:2026-07-28",
+        "site:microsoft.com \"VALL-E\" \"2026\" \"July\""
+      ]
+    },
+    {
+      "name": "GitHub Copilot",
+      "maker": "GitHub/Microsoft",
+      "section": "Microsoft",
+      "queries": [
+        "\"GitHub Copilot\" \"GitHub/Microsoft\" (release OR launched OR announced OR preview OR beta OR benchmark OR update OR changelog OR safety) after:2026-07-20 before:2026-07-28",
+        "site:microsoft.com \"GitHub Copilot\" \"2026\" \"July\""
+      ]
+    },
+    {
+      "name": "Orca 2",
+      "maker": "Microsoft Research",
+      "section": "Microsoft",
+      "queries": [
+        "\"Orca 2\" \"Microsoft Research\" (release OR launched OR announced OR preview OR beta OR benchmark OR update OR changelog OR safety) after:2026-07-20 before:2026-07-28",
+        "site:microsoft.com \"Orca 2\" \"2026\" \"July\""
+      ]
+    },
+    {
+      "name": "AutoGen",
+      "maker": "Microsoft",
+      "section": "Microsoft",
+      "queries": [
+        "\"AutoGen\" \"Microsoft\" (release OR launched OR announced OR preview OR beta OR benchmark OR update OR changelog OR safety) after:2026-07-20 before:2026-07-28",
+        "site:microsoft.com \"AutoGen\" \"2026\" \"July\""
+      ]
+    },
+    {
+      "name": "Amazon Nova Pro / Lite / Micro",
+      "maker": "Amazon",
+      "section": "Amazon",
+      "queries": [
+        "\"Amazon Nova Pro / Lite / Micro\" \"Amazon\" (release OR launched OR announced OR preview OR beta OR benchmark OR update OR changelog OR safety) after:2026-07-20 before:2026-07-28",
+        "site:aws.amazon.com \"Amazon Nova Pro / Lite / Micro\" \"2026\" \"July\""
+      ]
+    },
+    {
+      "name": "Amazon Titan",
+      "maker": "Amazon",
+      "section": "Amazon",
+      "queries": [
+        "\"Amazon Titan\" \"Amazon\" (release OR launched OR announced OR preview OR beta OR benchmark OR update OR changelog OR safety) after:2026-07-20 before:2026-07-28",
+        "site:aws.amazon.com \"Amazon Titan\" \"2026\" \"July\""
+      ]
+    },
+    {
+      "name": "Amazon Bedrock",
+      "maker": "Amazon",
+      "section": "Amazon",
+      "queries": [
+        "\"Amazon Bedrock\" \"Amazon\" (release OR launched OR announced OR preview OR beta OR benchmark OR update OR changelog OR safety) after:2026-07-20 before:2026-07-28",
+        "site:aws.amazon.com \"Amazon Bedrock\" \"2026\" \"July\""
+      ]
+    },
+    {
+      "name": "Amazon Q Developer",
+      "maker": "Amazon",
+      "section": "Amazon",
+      "queries": [
+        "\"Amazon Q Developer\" \"Amazon\" (release OR launched OR announced OR preview OR beta OR benchmark OR update OR changelog OR safety) after:2026-07-20 before:2026-07-28",
+        "site:aws.amazon.com \"Amazon Q Developer\" \"2026\" \"July\""
+      ]
+    },
+    {
+      "name": "Nemotron-4 340B / Nemotron-Mini",
+      "maker": "NVIDIA",
+      "section": "NVIDIA",
+      "queries": [
+        "\"Nemotron-4 340B / Nemotron-Mini\" \"NVIDIA\" (release OR launched OR announced OR preview OR beta OR benchmark OR update OR changelog OR safety) after:2026-07-20 before:2026-07-28",
+        "site:nvidia.com \"Nemotron-4 340B / Nemotron-Mini\" \"2026\" \"July\""
+      ]
+    },
+    {
+      "name": "Llama-3.1-Nemotron",
+      "maker": "NVIDIA",
+      "section": "NVIDIA",
+      "queries": [
+        "\"Llama-3.1-Nemotron\" \"NVIDIA\" (release OR launched OR announced OR preview OR beta OR benchmark OR update OR changelog OR safety) after:2026-07-20 before:2026-07-28",
+        "site:nvidia.com \"Llama-3.1-Nemotron\" \"2026\" \"July\""
+      ]
+    },
+    {
+      "name": "NVIDIA Cosmos",
+      "maker": "NVIDIA",
+      "section": "NVIDIA",
+      "queries": [
+        "\"NVIDIA Cosmos\" \"NVIDIA\" (release OR launched OR announced OR preview OR beta OR benchmark OR update OR changelog OR safety) after:2026-07-20 before:2026-07-28",
+        "site:nvidia.com \"NVIDIA Cosmos\" \"2026\" \"July\""
+      ]
+    },
+    {
+      "name": "DeepSeek V3 / V4 Pro",
+      "maker": "DeepSeek",
+      "section": "DeepSeek",
+      "queries": [
+        "\"DeepSeek V3 / V4 Pro\" \"DeepSeek\" (release OR launched OR announced OR preview OR beta OR benchmark OR update OR changelog OR safety) after:2026-07-20 before:2026-07-28",
+        "site:official website \"DeepSeek V3 / V4 Pro\" \"2026\" \"July\""
+      ]
+    },
+    {
+      "name": "DeepSeek R1",
+      "maker": "DeepSeek",
+      "section": "DeepSeek",
+      "queries": [
+        "\"DeepSeek R1\" \"DeepSeek\" (release OR launched OR announced OR preview OR beta OR benchmark OR update OR changelog OR safety) after:2026-07-20 before:2026-07-28",
+        "site:official website \"DeepSeek R1\" \"2026\" \"July\""
+      ]
+    },
+    {
+      "name": "DeepSeek Coder V2 / DeepCoder",
+      "maker": "DeepSeek",
+      "section": "DeepSeek",
+      "queries": [
+        "\"DeepSeek Coder V2 / DeepCoder\" \"DeepSeek\" (release OR launched OR announced OR preview OR beta OR benchmark OR update OR changelog OR safety) after:2026-07-20 before:2026-07-28",
+        "site:official website \"DeepSeek Coder V2 / DeepCoder\" \"2026\" \"July\""
+      ]
+    },
+    {
+      "name": "Janus-Pro",
+      "maker": "DeepSeek",
+      "section": "DeepSeek",
+      "queries": [
+        "\"Janus-Pro\" \"DeepSeek\" (release OR launched OR announced OR preview OR beta OR benchmark OR update OR changelog OR safety) after:2026-07-20 before:2026-07-28",
+        "site:official website \"Janus-Pro\" \"2026\" \"July\""
+      ]
+    },
+    {
+      "name": "Qwen 3 Max / 235B-A22B",
+      "maker": "Alibaba",
+      "section": "Alibaba (Qwen)",
+      "queries": [
+        "\"Qwen 3 Max / 235B-A22B\" \"Alibaba\" (release OR launched OR announced OR preview OR beta OR benchmark OR update OR changelog OR safety) after:2026-07-20 before:2026-07-28",
+        "site:qwen.ai \"Qwen 3 Max / 235B-A22B\" \"2026\" \"July\""
+      ]
+    },
+    {
+      "name": "Qwen 3.7 Max",
+      "maker": "Alibaba",
+      "section": "Alibaba (Qwen)",
+      "queries": [
+        "\"Qwen 3.7 Max\" \"Alibaba\" (release OR launched OR announced OR preview OR beta OR benchmark OR update OR changelog OR safety) after:2026-07-20 before:2026-07-28",
+        "site:qwen.ai \"Qwen 3.7 Max\" \"2026\" \"July\""
+      ]
+    },
+    {
+      "name": "Qwen 2.5 VL",
+      "maker": "Alibaba",
+      "section": "Alibaba (Qwen)",
+      "queries": [
+        "\"Qwen 2.5 VL\" \"Alibaba\" (release OR launched OR announced OR preview OR beta OR benchmark OR update OR changelog OR safety) after:2026-07-20 before:2026-07-28",
+        "site:qwen.ai \"Qwen 2.5 VL\" \"2026\" \"July\""
+      ]
+    },
+    {
+      "name": "Qwen2.5-Coder / QwQ-32B",
+      "maker": "Alibaba",
+      "section": "Alibaba (Qwen)",
+      "queries": [
+        "\"Qwen2.5-Coder / QwQ-32B\" \"Alibaba\" (release OR launched OR announced OR preview OR beta OR benchmark OR update OR changelog OR safety) after:2026-07-20 before:2026-07-28",
+        "site:qwen.ai \"Qwen2.5-Coder / QwQ-32B\" \"2026\" \"July\""
+      ]
+    },
+    {
+      "name": "Qwen3-0.6B / 1.7B / 4B",
+      "maker": "Alibaba",
+      "section": "Alibaba (Qwen)",
+      "queries": [
+        "\"Qwen3-0.6B / 1.7B / 4B\" \"Alibaba\" (release OR launched OR announced OR preview OR beta OR benchmark OR update OR changelog OR safety) after:2026-07-20 before:2026-07-28",
+        "site:qwen.ai \"Qwen3-0.6B / 1.7B / 4B\" \"2026\" \"July\""
+      ]
+    },
+    {
+      "name": "Mistral Large 3",
+      "maker": "Mistral AI",
+      "section": "Mistral AI",
+      "queries": [
+        "\"Mistral Large 3\" \"Mistral AI\" (release OR launched OR announced OR preview OR beta OR benchmark OR update OR changelog OR safety) after:2026-07-20 before:2026-07-28",
+        "site:mistral.ai \"Mistral Large 3\" \"2026\" \"July\""
+      ]
+    },
+    {
+      "name": "Mistral Medium 3.5 / Small 4",
+      "maker": "Mistral AI",
+      "section": "Mistral AI",
+      "queries": [
+        "\"Mistral Medium 3.5 / Small 4\" \"Mistral AI\" (release OR launched OR announced OR preview OR beta OR benchmark OR update OR changelog OR safety) after:2026-07-20 before:2026-07-28",
+        "site:mistral.ai \"Mistral Medium 3.5 / Small 4\" \"2026\" \"July\""
+      ]
+    },
+    {
+      "name": "Codestral",
+      "maker": "Mistral AI",
+      "section": "Mistral AI",
+      "queries": [
+        "\"Codestral\" \"Mistral AI\" (release OR launched OR announced OR preview OR beta OR benchmark OR update OR changelog OR safety) after:2026-07-20 before:2026-07-28",
+        "site:mistral.ai \"Codestral\" \"2026\" \"July\""
+      ]
+    },
+    {
+      "name": "Mixtral 8x22B",
+      "maker": "Mistral AI",
+      "section": "Mistral AI",
+      "queries": [
+        "\"Mixtral 8x22B\" \"Mistral AI\" (release OR launched OR announced OR preview OR beta OR benchmark OR update OR changelog OR safety) after:2026-07-20 before:2026-07-28",
+        "site:mistral.ai \"Mixtral 8x22B\" \"2026\" \"July\""
+      ]
+    },
+    {
+      "name": "Pixtral",
+      "maker": "Mistral AI",
+      "section": "Mistral AI",
+      "queries": [
+        "\"Pixtral\" \"Mistral AI\" (release OR launched OR announced OR preview OR beta OR benchmark OR update OR changelog OR safety) after:2026-07-20 before:2026-07-28",
+        "site:mistral.ai \"Pixtral\" \"2026\" \"July\""
+      ]
+    },
+    {
+      "name": "MiniMax-M1 (456B MoE)",
+      "maker": "MiniMax",
+      "section": "MiniMax (Hailuo AI)",
+      "queries": [
+        "\"MiniMax-M1 (456B MoE)\" \"MiniMax\" (release OR launched OR announced OR preview OR beta OR benchmark OR update OR changelog OR safety) after:2026-07-20 before:2026-07-28",
+        "site:official website \"MiniMax-M1 (456B MoE)\" \"2026\" \"July\""
+      ]
+    },
+    {
+      "name": "MiniMax-Text-01 / VL-01",
+      "maker": "MiniMax",
+      "section": "MiniMax (Hailuo AI)",
+      "queries": [
+        "\"MiniMax-Text-01 / VL-01\" \"MiniMax\" (release OR launched OR announced OR preview OR beta OR benchmark OR update OR changelog OR safety) after:2026-07-20 before:2026-07-28",
+        "site:official website \"MiniMax-Text-01 / VL-01\" \"2026\" \"July\""
+      ]
+    },
+    {
+      "name": "Hailuo 02 (video 1080p)",
+      "maker": "MiniMax",
+      "section": "MiniMax (Hailuo AI)",
+      "queries": [
+        "\"Hailuo 02 (video 1080p)\" \"MiniMax\" (release OR launched OR announced OR preview OR beta OR benchmark OR update OR changelog OR safety) after:2026-07-20 before:2026-07-28",
+        "site:official website \"Hailuo 02 (video 1080p)\" \"2026\" \"July\""
+      ]
+    },
+    {
+      "name": "MiniMax Speech-02 / Music-1.5",
+      "maker": "MiniMax",
+      "section": "MiniMax (Hailuo AI)",
+      "queries": [
+        "\"MiniMax Speech-02 / Music-1.5\" \"MiniMax\" (release OR launched OR announced OR preview OR beta OR benchmark OR update OR changelog OR safety) after:2026-07-20 before:2026-07-28",
+        "site:official website \"MiniMax Speech-02 / Music-1.5\" \"2026\" \"July\""
+      ]
+    },
+    {
+      "name": "MiniMax Image-01",
+      "maker": "MiniMax",
+      "section": "MiniMax (Hailuo AI)",
+      "queries": [
+        "\"MiniMax Image-01\" \"MiniMax\" (release OR launched OR announced OR preview OR beta OR benchmark OR update OR changelog OR safety) after:2026-07-20 before:2026-07-28",
+        "site:official website \"MiniMax Image-01\" \"2026\" \"July\""
+      ]
+    },
+    {
+      "name": "Kimi K2.6",
+      "maker": "Moonshot AI",
+      "section": "Moonshot AI (Kimi)",
+      "queries": [
+        "\"Kimi K2.6\" \"Moonshot AI\" (release OR launched OR announced OR preview OR beta OR benchmark OR update OR changelog OR safety) after:2026-07-20 before:2026-07-28",
+        "site:official website \"Kimi K2.6\" \"2026\" \"July\""
+      ]
+    },
+    {
+      "name": "Kimi K1.5",
+      "maker": "Moonshot AI",
+      "section": "Moonshot AI (Kimi)",
+      "queries": [
+        "\"Kimi K1.5\" \"Moonshot AI\" (release OR launched OR announced OR preview OR beta OR benchmark OR update OR changelog OR safety) after:2026-07-20 before:2026-07-28",
+        "site:official website \"Kimi K1.5\" \"2026\" \"July\""
+      ]
+    },
+    {
+      "name": "Command A+ (218B MoE)",
+      "maker": "Cohere",
+      "section": "Cohere",
+      "queries": [
+        "\"Command A+ (218B MoE)\" \"Cohere\" (release OR launched OR announced OR preview OR beta OR benchmark OR update OR changelog OR safety) after:2026-07-20 before:2026-07-28",
+        "site:cohere.com \"Command A+ (218B MoE)\" \"2026\" \"July\""
+      ]
+    },
+    {
+      "name": "Command R+",
+      "maker": "Cohere",
+      "section": "Cohere",
+      "queries": [
+        "\"Command R+\" \"Cohere\" (release OR launched OR announced OR preview OR beta OR benchmark OR update OR changelog OR safety) after:2026-07-20 before:2026-07-28",
+        "site:cohere.com \"Command R+\" \"2026\" \"July\""
+      ]
+    },
+    {
+      "name": "Aya (101 languages)",
+      "maker": "Cohere for AI",
+      "section": "Cohere",
+      "queries": [
+        "\"Aya (101 languages)\" \"Cohere for AI\" (release OR launched OR announced OR preview OR beta OR benchmark OR update OR changelog OR safety) after:2026-07-20 before:2026-07-28",
+        "site:cohere.com \"Aya (101 languages)\" \"2026\" \"July\""
+      ]
+    },
+    {
+      "name": "Jamba 1.6 Large / Mini",
+      "maker": "AI21 Labs",
+      "section": "AI21 Labs",
+      "queries": [
+        "\"Jamba 1.6 Large / Mini\" \"AI21 Labs\" (release OR launched OR announced OR preview OR beta OR benchmark OR update OR changelog OR safety) after:2026-07-20 before:2026-07-28",
+        "site:official website \"Jamba 1.6 Large / Mini\" \"2026\" \"July\""
+      ]
+    },
+    {
+      "name": "DBRX (132B MoE)",
+      "maker": "Databricks",
+      "section": "Databricks / MosaicML",
+      "queries": [
+        "\"DBRX (132B MoE)\" \"Databricks\" (release OR launched OR announced OR preview OR beta OR benchmark OR update OR changelog OR safety) after:2026-07-20 before:2026-07-28",
+        "site:databricks.com \"DBRX (132B MoE)\" \"2026\" \"July\""
+      ]
+    },
+    {
+      "name": "MPT-30B / MPT-7B",
+      "maker": "MosaicML",
+      "section": "Databricks / MosaicML",
+      "queries": [
+        "\"MPT-30B / MPT-7B\" \"MosaicML\" (release OR launched OR announced OR preview OR beta OR benchmark OR update OR changelog OR safety) after:2026-07-20 before:2026-07-28",
+        "site:official website \"MPT-30B / MPT-7B\" \"2026\" \"July\""
+      ]
+    },
+    {
+      "name": "Mosaic AI / Databricks platform",
+      "maker": "Databricks",
+      "section": "Databricks / MosaicML",
+      "queries": [
+        "\"Mosaic AI / Databricks platform\" \"Databricks\" (release OR launched OR announced OR preview OR beta OR benchmark OR update OR changelog OR safety) after:2026-07-20 before:2026-07-28",
+        "site:databricks.com \"Mosaic AI / Databricks platform\" \"2026\" \"July\""
+      ]
+    },
+    {
+      "name": "OLMo 3 / OLMo 2 (7B\u201332B)",
+      "maker": "Allen AI",
+      "section": "Allen AI (AI2)",
+      "queries": [
+        "\"OLMo 3 / OLMo 2 (7B\u201332B)\" \"Allen AI\" (release OR launched OR announced OR preview OR beta OR benchmark OR update OR changelog OR safety) after:2026-07-20 before:2026-07-28",
+        "site:official website \"OLMo 3 / OLMo 2 (7B\u201332B)\" \"2026\" \"July\""
+      ]
+    },
+    {
+      "name": "OLMoE",
+      "maker": "Allen AI",
+      "section": "Allen AI (AI2)",
+      "queries": [
+        "\"OLMoE\" \"Allen AI\" (release OR launched OR announced OR preview OR beta OR benchmark OR update OR changelog OR safety) after:2026-07-20 before:2026-07-28",
+        "site:official website \"OLMoE\" \"2026\" \"July\""
+      ]
+    },
+    {
+      "name": "Molmo",
+      "maker": "Allen AI",
+      "section": "Allen AI (AI2)",
+      "queries": [
+        "\"Molmo\" \"Allen AI\" (release OR launched OR announced OR preview OR beta OR benchmark OR update OR changelog OR safety) after:2026-07-20 before:2026-07-28",
+        "site:official website \"Molmo\" \"2026\" \"July\""
+      ]
+    },
+    {
+      "name": "T\u00fclu 3",
+      "maker": "Allen AI",
+      "section": "Allen AI (AI2)",
+      "queries": [
+        "\"T\u00fclu 3\" \"Allen AI\" (release OR launched OR announced OR preview OR beta OR benchmark OR update OR changelog OR safety) after:2026-07-20 before:2026-07-28",
+        "site:official website \"T\u00fclu 3\" \"2026\" \"July\""
+      ]
+    },
+    {
+      "name": "Nous Hermes 3",
+      "maker": "Nous Research",
+      "section": "Nous Research",
+      "queries": [
+        "\"Nous Hermes 3\" \"Nous Research\" (release OR launched OR announced OR preview OR beta OR benchmark OR update OR changelog OR safety) after:2026-07-20 before:2026-07-28",
+        "site:official website \"Nous Hermes 3\" \"2026\" \"July\""
+      ]
+    },
+    {
+      "name": "Deep Cogito (3B\u201370B)",
+      "maker": "Deep Cogito",
+      "section": "Nous Research",
+      "queries": [
+        "\"Deep Cogito (3B\u201370B)\" \"Deep Cogito\" (release OR launched OR announced OR preview OR beta OR benchmark OR update OR changelog OR safety) after:2026-07-20 before:2026-07-28",
+        "site:official website \"Deep Cogito (3B\u201370B)\" \"2026\" \"July\""
+      ]
+    },
+    {
+      "name": "SmolLM3 (1B\u20132B)",
+      "maker": "HuggingFace",
+      "section": "HuggingFace",
+      "queries": [
+        "\"SmolLM3 (1B\u20132B)\" \"HuggingFace\" (release OR launched OR announced OR preview OR beta OR benchmark OR update OR changelog OR safety) after:2026-07-20 before:2026-07-28",
+        "site:huggingface.co \"SmolLM3 (1B\u20132B)\" \"2026\" \"July\""
+      ]
+    },
+    {
+      "name": "SmolVLM (256M\u20132B)",
+      "maker": "HuggingFace",
+      "section": "HuggingFace",
+      "queries": [
+        "\"SmolVLM (256M\u20132B)\" \"HuggingFace\" (release OR launched OR announced OR preview OR beta OR benchmark OR update OR changelog OR safety) after:2026-07-20 before:2026-07-28",
+        "site:huggingface.co \"SmolVLM (256M\u20132B)\" \"2026\" \"July\""
+      ]
+    },
+    {
+      "name": "Zephyr 7B",
+      "maker": "HuggingFace",
+      "section": "HuggingFace",
+      "queries": [
+        "\"Zephyr 7B\" \"HuggingFace\" (release OR launched OR announced OR preview OR beta OR benchmark OR update OR changelog OR safety) after:2026-07-20 before:2026-07-28",
+        "site:huggingface.co \"Zephyr 7B\" \"2026\" \"July\""
+      ]
+    },
+    {
+      "name": "OpenChat 3.5",
+      "maker": "HuggingFace",
+      "section": "HuggingFace",
+      "queries": [
+        "\"OpenChat 3.5\" \"HuggingFace\" (release OR launched OR announced OR preview OR beta OR benchmark OR update OR changelog OR safety) after:2026-07-20 before:2026-07-28",
+        "site:huggingface.co \"OpenChat 3.5\" \"2026\" \"July\""
+      ]
+    },
+    {
+      "name": "HuggingFace Hub",
+      "maker": "HuggingFace",
+      "section": "HuggingFace",
+      "queries": [
+        "\"HuggingFace Hub\" \"HuggingFace\" (release OR launched OR announced OR preview OR beta OR benchmark OR update OR changelog OR safety) after:2026-07-20 before:2026-07-28",
+        "site:huggingface.co \"HuggingFace Hub\" \"2026\" \"July\""
+      ]
+    },
+    {
+      "name": "StarCoder 2 (3B\u201315B)",
+      "maker": "BigCode",
+      "section": "BigCode / StarCoder",
+      "queries": [
+        "\"StarCoder 2 (3B\u201315B)\" \"BigCode\" (release OR launched OR announced OR preview OR beta OR benchmark OR update OR changelog OR safety) after:2026-07-20 before:2026-07-28",
+        "site:official website \"StarCoder 2 (3B\u201315B)\" \"2026\" \"July\""
+      ]
+    },
+    {
+      "name": "TinySwallow-1.5B",
+      "maker": "Sakana AI",
+      "section": "Sakana AI",
+      "queries": [
+        "\"TinySwallow-1.5B\" \"Sakana AI\" (release OR launched OR announced OR preview OR beta OR benchmark OR update OR changelog OR safety) after:2026-07-20 before:2026-07-28",
+        "site:official website \"TinySwallow-1.5B\" \"2026\" \"July\""
+      ]
+    },
+    {
+      "name": "Evolutionary Model Merge",
+      "maker": "Sakana AI",
+      "section": "Sakana AI",
+      "queries": [
+        "\"Evolutionary Model Merge\" \"Sakana AI\" (release OR launched OR announced OR preview OR beta OR benchmark OR update OR changelog OR safety) after:2026-07-20 before:2026-07-28",
+        "site:official website \"Evolutionary Model Merge\" \"2026\" \"July\""
+      ]
+    },
+    {
+      "name": "MiniCPM-V 4.6 (1.3B)",
+      "maker": "OpenBMB",
+      "section": "OpenBMB / MiniCPM",
+      "queries": [
+        "\"MiniCPM-V 4.6 (1.3B)\" \"OpenBMB\" (release OR launched OR announced OR preview OR beta OR benchmark OR update OR changelog OR safety) after:2026-07-20 before:2026-07-28",
+        "site:official website \"MiniCPM-V 4.6 (1.3B)\" \"2026\" \"July\""
+      ]
+    },
+    {
+      "name": "MiniCPM5-1B",
+      "maker": "OpenBMB",
+      "section": "OpenBMB / MiniCPM",
+      "queries": [
+        "\"MiniCPM5-1B\" \"OpenBMB\" (release OR launched OR announced OR preview OR beta OR benchmark OR update OR changelog OR safety) after:2026-07-20 before:2026-07-28",
+        "site:official website \"MiniCPM5-1B\" \"2026\" \"July\""
+      ]
+    },
+    {
+      "name": "OpenELM (270M\u20133B)",
+      "maker": "Apple",
+      "section": "Apple",
+      "queries": [
+        "\"OpenELM (270M\u20133B)\" \"Apple\" (release OR launched OR announced OR preview OR beta OR benchmark OR update OR changelog OR safety) after:2026-07-20 before:2026-07-28",
+        "site:official website \"OpenELM (270M\u20133B)\" \"2026\" \"July\""
+      ]
+    },
+    {
+      "name": "Apple Intelligence",
+      "maker": "Apple",
+      "section": "Apple",
+      "queries": [
+        "\"Apple Intelligence\" \"Apple\" (release OR launched OR announced OR preview OR beta OR benchmark OR update OR changelog OR safety) after:2026-07-20 before:2026-07-28",
+        "site:official website \"Apple Intelligence\" \"2026\" \"July\""
+      ]
+    },
+    {
+      "name": "ERNIE 4.5",
+      "maker": "Baidu",
+      "section": "Chinese AI Labs",
+      "queries": [
+        "\"ERNIE 4.5\" \"Baidu\" (release OR launched OR announced OR preview OR beta OR benchmark OR update OR changelog OR safety) after:2026-07-20 before:2026-07-28",
+        "site:official website \"ERNIE 4.5\" \"2026\" \"July\""
+      ]
+    },
+    {
+      "name": "GLM-5 / 5.1",
+      "maker": "Zhipu AI (Z.AI)",
+      "section": "Chinese AI Labs",
+      "queries": [
+        "\"GLM-5 / 5.1\" \"Zhipu AI (Z.AI)\" (release OR launched OR announced OR preview OR beta OR benchmark OR update OR changelog OR safety) after:2026-07-20 before:2026-07-28",
+        "site:official website \"GLM-5 / 5.1\" \"2026\" \"July\""
+      ]
+    },
+    {
+      "name": "Yi-Lightning",
+      "maker": "01.AI (Kai-Fu Lee)",
+      "section": "Chinese AI Labs",
+      "queries": [
+        "\"Yi-Lightning\" \"01.AI (Kai-Fu Lee)\" (release OR launched OR announced OR preview OR beta OR benchmark OR update OR changelog OR safety) after:2026-07-20 before:2026-07-28",
+        "site:official website \"Yi-Lightning\" \"2026\" \"July\""
+      ]
+    },
+    {
+      "name": "Hunyuan",
+      "maker": "Tencent",
+      "section": "Chinese AI Labs",
+      "queries": [
+        "\"Hunyuan\" \"Tencent\" (release OR launched OR announced OR preview OR beta OR benchmark OR update OR changelog OR safety) after:2026-07-20 before:2026-07-28",
+        "site:official website \"Hunyuan\" \"2026\" \"July\""
+      ]
+    },
+    {
+      "name": "Doubao / Seed",
+      "maker": "ByteDance",
+      "section": "Chinese AI Labs",
+      "queries": [
+        "\"Doubao / Seed\" \"ByteDance\" (release OR launched OR announced OR preview OR beta OR benchmark OR update OR changelog OR safety) after:2026-07-20 before:2026-07-28",
+        "site:official website \"Doubao / Seed\" \"2026\" \"July\""
+      ]
+    },
+    {
+      "name": "InternLM 3",
+      "maker": "Shanghai AI Lab",
+      "section": "Chinese AI Labs",
+      "queries": [
+        "\"InternLM 3\" \"Shanghai AI Lab\" (release OR launched OR announced OR preview OR beta OR benchmark OR update OR changelog OR safety) after:2026-07-20 before:2026-07-28",
+        "site:official website \"InternLM 3\" \"2026\" \"July\""
+      ]
+    },
+    {
+      "name": "Pangu",
+      "maker": "Huawei",
+      "section": "Chinese AI Labs",
+      "queries": [
+        "\"Pangu\" \"Huawei\" (release OR launched OR announced OR preview OR beta OR benchmark OR update OR changelog OR safety) after:2026-07-20 before:2026-07-28",
+        "site:official website \"Pangu\" \"2026\" \"July\""
+      ]
+    },
+    {
+      "name": "Seedream 5",
+      "maker": "ByteDance Seed",
+      "section": "Chinese AI Labs",
+      "queries": [
+        "\"Seedream 5\" \"ByteDance Seed\" (release OR launched OR announced OR preview OR beta OR benchmark OR update OR changelog OR safety) after:2026-07-20 before:2026-07-28",
+        "site:official website \"Seedream 5\" \"2026\" \"July\""
+      ]
+    },
+    {
+      "name": "Seedance",
+      "maker": "ByteDance",
+      "section": "Chinese AI Labs",
+      "queries": [
+        "\"Seedance\" \"ByteDance\" (release OR launched OR announced OR preview OR beta OR benchmark OR update OR changelog OR safety) after:2026-07-20 before:2026-07-28",
+        "site:official website \"Seedance\" \"2026\" \"July\""
+      ]
+    },
+    {
+      "name": "Sonar Pro / Sonar",
+      "maker": "Perplexity",
+      "section": "Perplexity",
+      "queries": [
+        "\"Sonar Pro / Sonar\" \"Perplexity\" (release OR launched OR announced OR preview OR beta OR benchmark OR update OR changelog OR safety) after:2026-07-20 before:2026-07-28",
+        "site:perplexity.ai \"Sonar Pro / Sonar\" \"2026\" \"July\""
+      ]
+    },
+    {
+      "name": "Falcon-H1 / Falcon 2",
+      "maker": "TII (UAE)",
+      "section": "TII / Falcon",
+      "queries": [
+        "\"Falcon-H1 / Falcon 2\" \"TII (UAE)\" (release OR launched OR announced OR preview OR beta OR benchmark OR update OR changelog OR safety) after:2026-07-20 before:2026-07-28",
+        "site:official website \"Falcon-H1 / Falcon 2\" \"2026\" \"July\""
+      ]
+    },
+    {
+      "name": "Jais 70B",
+      "maker": "G42 (UAE)",
+      "section": "TII / Falcon",
+      "queries": [
+        "\"Jais 70B\" \"G42 (UAE)\" (release OR launched OR announced OR preview OR beta OR benchmark OR update OR changelog OR safety) after:2026-07-20 before:2026-07-28",
+        "site:official website \"Jais 70B\" \"2026\" \"July\""
+      ]
+    },
+    {
+      "name": "Granite (3B\u201334B)",
+      "maker": "IBM",
+      "section": "IBM",
+      "queries": [
+        "\"Granite (3B\u201334B)\" \"IBM\" (release OR launched OR announced OR preview OR beta OR benchmark OR update OR changelog OR safety) after:2026-07-20 before:2026-07-28",
+        "site:official website \"Granite (3B\u201334B)\" \"2026\" \"July\""
+      ]
+    },
+    {
+      "name": "SAS Viya AI",
+      "maker": "SAS",
+      "section": "Legacy Enterprise AI",
+      "queries": [
+        "\"SAS Viya AI\" \"SAS\" (release OR launched OR announced OR preview OR beta OR benchmark OR update OR changelog OR safety) after:2026-07-20 before:2026-07-28",
+        "site:official website \"SAS Viya AI\" \"2026\" \"July\""
+      ]
+    },
+    {
+      "name": "C3.ai",
+      "maker": "C3.ai",
+      "section": "Legacy Enterprise AI",
+      "queries": [
+        "\"C3.ai\" \"C3.ai\" (release OR launched OR announced OR preview OR beta OR benchmark OR update OR changelog OR safety) after:2026-07-20 before:2026-07-28",
+        "site:official website \"C3.ai\" \"2026\" \"July\""
+      ]
+    },
+    {
+      "name": "H2O.ai",
+      "maker": "H2O.ai",
+      "section": "Legacy Enterprise AI",
+      "queries": [
+        "\"H2O.ai\" \"H2O.ai\" (release OR launched OR announced OR preview OR beta OR benchmark OR update OR changelog OR safety) after:2026-07-20 before:2026-07-28",
+        "site:official website \"H2O.ai\" \"2026\" \"July\""
+      ]
+    },
+    {
+      "name": "DataRobot",
+      "maker": "DataRobot",
+      "section": "Legacy Enterprise AI",
+      "queries": [
+        "\"DataRobot\" \"DataRobot\" (release OR launched OR announced OR preview OR beta OR benchmark OR update OR changelog OR safety) after:2026-07-20 before:2026-07-28",
+        "site:official website \"DataRobot\" \"2026\" \"July\""
+      ]
+    },
+    {
+      "name": "Dataiku",
+      "maker": "Dataiku",
+      "section": "Legacy Enterprise AI",
+      "queries": [
+        "\"Dataiku\" \"Dataiku\" (release OR launched OR announced OR preview OR beta OR benchmark OR update OR changelog OR safety) after:2026-07-20 before:2026-07-28",
+        "site:official website \"Dataiku\" \"2026\" \"July\""
+      ]
+    },
+    {
+      "name": "Domino Data Lab",
+      "maker": "Domino",
+      "section": "Legacy Enterprise AI",
+      "queries": [
+        "\"Domino Data Lab\" \"Domino\" (release OR launched OR announced OR preview OR beta OR benchmark OR update OR changelog OR safety) after:2026-07-20 before:2026-07-28",
+        "site:official website \"Domino Data Lab\" \"2026\" \"July\""
+      ]
+    },
+    {
+      "name": "Palantir",
+      "maker": "Palantir",
+      "section": "Legacy Enterprise AI",
+      "queries": [
+        "\"Palantir\" \"Palantir\" (release OR launched OR announced OR preview OR beta OR benchmark OR update OR changelog OR safety) after:2026-07-20 before:2026-07-28",
+        "site:official website \"Palantir\" \"2026\" \"July\""
+      ]
+    },
+    {
+      "name": "Midjourney V8.1",
+      "maker": "Midjourney",
+      "section": "Image Generation",
+      "queries": [
+        "\"Midjourney V8.1\" \"Midjourney\" (release OR launched OR announced OR preview OR beta OR benchmark OR update OR changelog OR safety) after:2026-07-20 before:2026-07-28",
+        "site:official website \"Midjourney V8.1\" \"2026\" \"July\""
+      ]
+    },
+    {
+      "name": "FLUX.2 / FLUX.1",
+      "maker": "Black Forest Labs",
+      "section": "Image Generation",
+      "queries": [
+        "\"FLUX.2 / FLUX.1\" \"Black Forest Labs\" (release OR launched OR announced OR preview OR beta OR benchmark OR update OR changelog OR safety) after:2026-07-20 before:2026-07-28",
+        "site:official website \"FLUX.2 / FLUX.1\" \"2026\" \"July\""
+      ]
+    },
+    {
+      "name": "Stable Diffusion 3.5",
+      "maker": "Stability AI",
+      "section": "Image Generation",
+      "queries": [
+        "\"Stable Diffusion 3.5\" \"Stability AI\" (release OR launched OR announced OR preview OR beta OR benchmark OR update OR changelog OR safety) after:2026-07-20 before:2026-07-28",
+        "site:official website \"Stable Diffusion 3.5\" \"2026\" \"July\""
+      ]
+    },
+    {
+      "name": "Nano Banana / Nano Banana 2",
+      "maker": "Google DeepMind (via Higgsfield/fal)",
+      "section": "Image Generation",
+      "queries": [
+        "\"Nano Banana / Nano Banana 2\" \"Google DeepMind (via Higgsfield/fal)\" (release OR launched OR announced OR preview OR beta OR benchmark OR update OR changelog OR safety) after:2026-07-20 before:2026-07-28",
+        "site:blog.google \"Nano Banana / Nano Banana 2\" \"2026\" \"July\""
+      ]
+    },
+    {
+      "name": "Ideogram 3.0",
+      "maker": "Ideogram",
+      "section": "Image Generation",
+      "queries": [
+        "\"Ideogram 3.0\" \"Ideogram\" (release OR launched OR announced OR preview OR beta OR benchmark OR update OR changelog OR safety) after:2026-07-20 before:2026-07-28",
+        "site:official website \"Ideogram 3.0\" \"2026\" \"July\""
+      ]
+    },
+    {
+      "name": "Adobe Firefly",
+      "maker": "Adobe",
+      "section": "Image Generation",
+      "queries": [
+        "\"Adobe Firefly\" \"Adobe\" (release OR launched OR announced OR preview OR beta OR benchmark OR update OR changelog OR safety) after:2026-07-20 before:2026-07-28",
+        "site:official website \"Adobe Firefly\" \"2026\" \"July\""
+      ]
+    },
+    {
+      "name": "Recraft V4",
+      "maker": "Recraft",
+      "section": "Image Generation",
+      "queries": [
+        "\"Recraft V4\" \"Recraft\" (release OR launched OR announced OR preview OR beta OR benchmark OR update OR changelog OR safety) after:2026-07-20 before:2026-07-28",
+        "site:official website \"Recraft V4\" \"2026\" \"July\""
+      ]
+    },
+    {
+      "name": "Leonardo AI",
+      "maker": "Leonardo",
+      "section": "Image Generation",
+      "queries": [
+        "\"Leonardo AI\" \"Leonardo\" (release OR launched OR announced OR preview OR beta OR benchmark OR update OR changelog OR safety) after:2026-07-20 before:2026-07-28",
+        "site:official website \"Leonardo AI\" \"2026\" \"July\""
+      ]
+    },
+    {
+      "name": "HiDream (open)",
+      "maker": "HiDream AI",
+      "section": "Image Generation",
+      "queries": [
+        "\"HiDream (open)\" \"HiDream AI\" (release OR launched OR announced OR preview OR beta OR benchmark OR update OR changelog OR safety) after:2026-07-20 before:2026-07-28",
+        "site:official website \"HiDream (open)\" \"2026\" \"July\""
+      ]
+    },
+    {
+      "name": "Canva Magic Studio",
+      "maker": "Canva",
+      "section": "Image Generation",
+      "queries": [
+        "\"Canva Magic Studio\" \"Canva\" (release OR launched OR announced OR preview OR beta OR benchmark OR update OR changelog OR safety) after:2026-07-20 before:2026-07-28",
+        "site:official website \"Canva Magic Studio\" \"2026\" \"July\""
+      ]
+    },
+    {
+      "name": "Photoroom",
+      "maker": "Photoroom",
+      "section": "Image Generation",
+      "queries": [
+        "\"Photoroom\" \"Photoroom\" (release OR launched OR announced OR preview OR beta OR benchmark OR update OR changelog OR safety) after:2026-07-20 before:2026-07-28",
+        "site:official website \"Photoroom\" \"2026\" \"July\""
+      ]
+    },
+    {
+      "name": "Higgsfield AI",
+      "maker": "Higgsfield",
+      "section": "Video Generation",
+      "queries": [
+        "\"Higgsfield AI\" \"Higgsfield\" (release OR launched OR announced OR preview OR beta OR benchmark OR update OR changelog OR safety) after:2026-07-20 before:2026-07-28",
+        "site:official website \"Higgsfield AI\" \"2026\" \"July\""
+      ]
+    },
+    {
+      "name": "Runway Gen-4",
+      "maker": "Runway",
+      "section": "Video Generation",
+      "queries": [
+        "\"Runway Gen-4\" \"Runway\" (release OR launched OR announced OR preview OR beta OR benchmark OR update OR changelog OR safety) after:2026-07-20 before:2026-07-28",
+        "site:official website \"Runway Gen-4\" \"2026\" \"July\""
+      ]
+    },
+    {
+      "name": "Pika 2.2",
+      "maker": "Pika Labs",
+      "section": "Video Generation",
+      "queries": [
+        "\"Pika 2.2\" \"Pika Labs\" (release OR launched OR announced OR preview OR beta OR benchmark OR update OR changelog OR safety) after:2026-07-20 before:2026-07-28",
+        "site:official website \"Pika 2.2\" \"2026\" \"July\""
+      ]
+    },
+    {
+      "name": "Kling 2.0 / 3.0",
+      "maker": "Kuaishou",
+      "section": "Video Generation",
+      "queries": [
+        "\"Kling 2.0 / 3.0\" \"Kuaishou\" (release OR launched OR announced OR preview OR beta OR benchmark OR update OR changelog OR safety) after:2026-07-20 before:2026-07-28",
+        "site:official website \"Kling 2.0 / 3.0\" \"2026\" \"July\""
+      ]
+    },
+    {
+      "name": "Luma AI Ray 2",
+      "maker": "Luma AI",
+      "section": "Video Generation",
+      "queries": [
+        "\"Luma AI Ray 2\" \"Luma AI\" (release OR launched OR announced OR preview OR beta OR benchmark OR update OR changelog OR safety) after:2026-07-20 before:2026-07-28",
+        "site:official website \"Luma AI Ray 2\" \"2026\" \"July\""
+      ]
+    },
+    {
+      "name": "Wan 2.1 / 2.2",
+      "maker": "Wan AI",
+      "section": "Video Generation",
+      "queries": [
+        "\"Wan 2.1 / 2.2\" \"Wan AI\" (release OR launched OR announced OR preview OR beta OR benchmark OR update OR changelog OR safety) after:2026-07-20 before:2026-07-28",
+        "site:official website \"Wan 2.1 / 2.2\" \"2026\" \"July\""
+      ]
+    },
+    {
+      "name": "PixVerse",
+      "maker": "PixVerse",
+      "section": "Video Generation",
+      "queries": [
+        "\"PixVerse\" \"PixVerse\" (release OR launched OR announced OR preview OR beta OR benchmark OR update OR changelog OR safety) after:2026-07-20 before:2026-07-28",
+        "site:official website \"PixVerse\" \"2026\" \"July\""
+      ]
+    },
+    {
+      "name": "Vidu",
+      "maker": "Vidu",
+      "section": "Video Generation",
+      "queries": [
+        "\"Vidu\" \"Vidu\" (release OR launched OR announced OR preview OR beta OR benchmark OR update OR changelog OR safety) after:2026-07-20 before:2026-07-28",
+        "site:official website \"Vidu\" \"2026\" \"July\""
+      ]
+    },
+    {
+      "name": "Step-Video",
+      "maker": "StepFun",
+      "section": "Video Generation",
+      "queries": [
+        "\"Step-Video\" \"StepFun\" (release OR launched OR announced OR preview OR beta OR benchmark OR update OR changelog OR safety) after:2026-07-20 before:2026-07-28",
+        "site:official website \"Step-Video\" \"2026\" \"July\""
+      ]
+    },
+    {
+      "name": "Midjourney Video V1",
+      "maker": "Midjourney",
+      "section": "Video Generation",
+      "queries": [
+        "\"Midjourney Video V1\" \"Midjourney\" (release OR launched OR announced OR preview OR beta OR benchmark OR update OR changelog OR safety) after:2026-07-20 before:2026-07-28",
+        "site:official website \"Midjourney Video V1\" \"2026\" \"July\""
+      ]
+    },
+    {
+      "name": "Synthesia",
+      "maker": "Synthesia",
+      "section": "Avatar & Synthetic Video",
+      "queries": [
+        "\"Synthesia\" \"Synthesia\" (release OR launched OR announced OR preview OR beta OR benchmark OR update OR changelog OR safety) after:2026-07-20 before:2026-07-28",
+        "site:official website \"Synthesia\" \"2026\" \"July\""
+      ]
+    },
+    {
+      "name": "HeyGen",
+      "maker": "HeyGen",
+      "section": "Avatar & Synthetic Video",
+      "queries": [
+        "\"HeyGen\" \"HeyGen\" (release OR launched OR announced OR preview OR beta OR benchmark OR update OR changelog OR safety) after:2026-07-20 before:2026-07-28",
+        "site:official website \"HeyGen\" \"2026\" \"July\""
+      ]
+    },
+    {
+      "name": "D-ID",
+      "maker": "D-ID",
+      "section": "Avatar & Synthetic Video",
+      "queries": [
+        "\"D-ID\" \"D-ID\" (release OR launched OR announced OR preview OR beta OR benchmark OR update OR changelog OR safety) after:2026-07-20 before:2026-07-28",
+        "site:official website \"D-ID\" \"2026\" \"July\""
+      ]
+    },
+    {
+      "name": "Colossyan",
+      "maker": "Colossyan",
+      "section": "Avatar & Synthetic Video",
+      "queries": [
+        "\"Colossyan\" \"Colossyan\" (release OR launched OR announced OR preview OR beta OR benchmark OR update OR changelog OR safety) after:2026-07-20 before:2026-07-28",
+        "site:official website \"Colossyan\" \"2026\" \"July\""
+      ]
+    },
+    {
+      "name": "Captions",
+      "maker": "Captions",
+      "section": "Avatar & Synthetic Video",
+      "queries": [
+        "\"Captions\" \"Captions\" (release OR launched OR announced OR preview OR beta OR benchmark OR update OR changelog OR safety) after:2026-07-20 before:2026-07-28",
+        "site:official website \"Captions\" \"2026\" \"July\""
+      ]
+    },
+    {
+      "name": "Hour One",
+      "maker": "Hour One",
+      "section": "Avatar & Synthetic Video",
+      "queries": [
+        "\"Hour One\" \"Hour One\" (release OR launched OR announced OR preview OR beta OR benchmark OR update OR changelog OR safety) after:2026-07-20 before:2026-07-28",
+        "site:official website \"Hour One\" \"2026\" \"July\""
+      ]
+    },
+    {
+      "name": "Descript",
+      "maker": "Descript",
+      "section": "Avatar & Synthetic Video",
+      "queries": [
+        "\"Descript\" \"Descript\" (release OR launched OR announced OR preview OR beta OR benchmark OR update OR changelog OR safety) after:2026-07-20 before:2026-07-28",
+        "site:official website \"Descript\" \"2026\" \"July\""
+      ]
+    },
+    {
+      "name": "Pictory",
+      "maker": "Pictory",
+      "section": "Avatar & Synthetic Video",
+      "queries": [
+        "\"Pictory\" \"Pictory\" (release OR launched OR announced OR preview OR beta OR benchmark OR update OR changelog OR safety) after:2026-07-20 before:2026-07-28",
+        "site:official website \"Pictory\" \"2026\" \"July\""
+      ]
+    },
+    {
+      "name": "Arcads",
+      "maker": "Arcads",
+      "section": "Avatar & Synthetic Video",
+      "queries": [
+        "\"Arcads\" \"Arcads\" (release OR launched OR announced OR preview OR beta OR benchmark OR update OR changelog OR safety) after:2026-07-20 before:2026-07-28",
+        "site:official website \"Arcads\" \"2026\" \"July\""
+      ]
+    },
+    {
+      "name": "ElevenLabs",
+      "maker": "ElevenLabs",
+      "section": "Audio & Music",
+      "queries": [
+        "\"ElevenLabs\" \"ElevenLabs\" (release OR launched OR announced OR preview OR beta OR benchmark OR update OR changelog OR safety) after:2026-07-20 before:2026-07-28",
+        "site:official website \"ElevenLabs\" \"2026\" \"July\""
+      ]
+    },
+    {
+      "name": "Suno v4",
+      "maker": "Suno",
+      "section": "Audio & Music",
+      "queries": [
+        "\"Suno v4\" \"Suno\" (release OR launched OR announced OR preview OR beta OR benchmark OR update OR changelog OR safety) after:2026-07-20 before:2026-07-28",
+        "site:official website \"Suno v4\" \"2026\" \"July\""
+      ]
+    },
+    {
+      "name": "Udio",
+      "maker": "Udio",
+      "section": "Audio & Music",
+      "queries": [
+        "\"Udio\" \"Udio\" (release OR launched OR announced OR preview OR beta OR benchmark OR update OR changelog OR safety) after:2026-07-20 before:2026-07-28",
+        "site:official website \"Udio\" \"2026\" \"July\""
+      ]
+    },
+    {
+      "name": "Murf.ai",
+      "maker": "Murf",
+      "section": "Audio & Music",
+      "queries": [
+        "\"Murf.ai\" \"Murf\" (release OR launched OR announced OR preview OR beta OR benchmark OR update OR changelog OR safety) after:2026-07-20 before:2026-07-28",
+        "site:official website \"Murf.ai\" \"2026\" \"July\""
+      ]
+    },
+    {
+      "name": "Resemble AI",
+      "maker": "Resemble",
+      "section": "Audio & Music",
+      "queries": [
+        "\"Resemble AI\" \"Resemble\" (release OR launched OR announced OR preview OR beta OR benchmark OR update OR changelog OR safety) after:2026-07-20 before:2026-07-28",
+        "site:official website \"Resemble AI\" \"2026\" \"July\""
+      ]
+    },
+    {
+      "name": "PlayAI",
+      "maker": "PlayAI",
+      "section": "Audio & Music",
+      "queries": [
+        "\"PlayAI\" \"PlayAI\" (release OR launched OR announced OR preview OR beta OR benchmark OR update OR changelog OR safety) after:2026-07-20 before:2026-07-28",
+        "site:official website \"PlayAI\" \"2026\" \"July\""
+      ]
+    },
+    {
+      "name": "Vapi AI",
+      "maker": "Vapi",
+      "section": "Audio & Music",
+      "queries": [
+        "\"Vapi AI\" \"Vapi\" (release OR launched OR announced OR preview OR beta OR benchmark OR update OR changelog OR safety) after:2026-07-20 before:2026-07-28",
+        "site:official website \"Vapi AI\" \"2026\" \"July\""
+      ]
+    },
+    {
+      "name": "AssemblyAI",
+      "maker": "AssemblyAI",
+      "section": "Audio & Music",
+      "queries": [
+        "\"AssemblyAI\" \"AssemblyAI\" (release OR launched OR announced OR preview OR beta OR benchmark OR update OR changelog OR safety) after:2026-07-20 before:2026-07-28",
+        "site:official website \"AssemblyAI\" \"2026\" \"July\""
+      ]
+    },
+    {
+      "name": "Deepgram",
+      "maker": "Deepgram",
+      "section": "Audio & Music",
+      "queries": [
+        "\"Deepgram\" \"Deepgram\" (release OR launched OR announced OR preview OR beta OR benchmark OR update OR changelog OR safety) after:2026-07-20 before:2026-07-28",
+        "site:official website \"Deepgram\" \"2026\" \"July\""
+      ]
+    },
+    {
+      "name": "Bark",
+      "maker": "Suno (open-source)",
+      "section": "Audio & Music",
+      "queries": [
+        "\"Bark\" \"Suno (open-source)\" (release OR launched OR announced OR preview OR beta OR benchmark OR update OR changelog OR safety) after:2026-07-20 before:2026-07-28",
+        "site:official website \"Bark\" \"2026\" \"July\""
+      ]
+    },
+    {
+      "name": "Kokoro TTS",
+      "maker": "Community",
+      "section": "Audio & Music",
+      "queries": [
+        "\"Kokoro TTS\" \"Community\" (release OR launched OR announced OR preview OR beta OR benchmark OR update OR changelog OR safety) after:2026-07-20 before:2026-07-28",
+        "site:official website \"Kokoro TTS\" \"2026\" \"July\""
+      ]
+    },
+    {
+      "name": "World Labs \u2014 Marble",
+      "maker": "World Labs (Fei-Fei Li)",
+      "section": "World Models",
+      "queries": [
+        "\"World Labs \u2014 Marble\" \"World Labs (Fei-Fei Li)\" (release OR launched OR announced OR preview OR beta OR benchmark OR update OR changelog OR safety) after:2026-07-20 before:2026-07-28",
+        "site:official website \"World Labs \u2014 Marble\" \"2026\" \"July\""
+      ]
+    },
+    {
+      "name": "AMI Labs",
+      "maker": "Yann LeCun",
+      "section": "World Models",
+      "queries": [
+        "\"AMI Labs\" \"Yann LeCun\" (release OR launched OR announced OR preview OR beta OR benchmark OR update OR changelog OR safety) after:2026-07-20 before:2026-07-28",
+        "site:official website \"AMI Labs\" \"2026\" \"July\""
+      ]
+    },
+    {
+      "name": "Decart / Oasis",
+      "maker": "Decart",
+      "section": "World Models",
+      "queries": [
+        "\"Decart / Oasis\" \"Decart\" (release OR launched OR announced OR preview OR beta OR benchmark OR update OR changelog OR safety) after:2026-07-20 before:2026-07-28",
+        "site:official website \"Decart / Oasis\" \"2026\" \"July\""
+      ]
+    },
+    {
+      "name": "Odyssey",
+      "maker": "Odyssey",
+      "section": "World Models",
+      "queries": [
+        "\"Odyssey\" \"Odyssey\" (release OR launched OR announced OR preview OR beta OR benchmark OR update OR changelog OR safety) after:2026-07-20 before:2026-07-28",
+        "site:official website \"Odyssey\" \"2026\" \"July\""
+      ]
+    },
+    {
+      "name": "General Intuition",
+      "maker": "General Intuition",
+      "section": "World Models",
+      "queries": [
+        "\"General Intuition\" \"General Intuition\" (release OR launched OR announced OR preview OR beta OR benchmark OR update OR changelog OR safety) after:2026-07-20 before:2026-07-28",
+        "site:official website \"General Intuition\" \"2026\" \"July\""
+      ]
+    },
+    {
+      "name": "GAIA-2",
+      "maker": "Wayve",
+      "section": "World Models",
+      "queries": [
+        "\"GAIA-2\" \"Wayve\" (release OR launched OR announced OR preview OR beta OR benchmark OR update OR changelog OR safety) after:2026-07-20 before:2026-07-28",
+        "site:official website \"GAIA-2\" \"2026\" \"July\""
+      ]
+    },
+    {
+      "name": "Mercury / Mercury 2",
+      "maker": "Inception Labs",
+      "section": "New Architectures",
+      "queries": [
+        "\"Mercury / Mercury 2\" \"Inception Labs\" (release OR launched OR announced OR preview OR beta OR benchmark OR update OR changelog OR safety) after:2026-07-20 before:2026-07-28",
+        "site:official website \"Mercury / Mercury 2\" \"2026\" \"July\""
+      ]
+    },
+    {
+      "name": "SubQ-1M",
+      "maker": "Subquadratic",
+      "section": "New Architectures",
+      "queries": [
+        "\"SubQ-1M\" \"Subquadratic\" (release OR launched OR announced OR preview OR beta OR benchmark OR update OR changelog OR safety) after:2026-07-20 before:2026-07-28",
+        "site:official website \"SubQ-1M\" \"2026\" \"July\""
+      ]
+    },
+    {
+      "name": "ZAYA1-8B",
+      "maker": "Zyphra",
+      "section": "New Architectures",
+      "queries": [
+        "\"ZAYA1-8B\" \"Zyphra\" (release OR launched OR announced OR preview OR beta OR benchmark OR update OR changelog OR safety) after:2026-07-20 before:2026-07-28",
+        "site:official website \"ZAYA1-8B\" \"2026\" \"July\""
+      ]
+    },
+    {
+      "name": "RWKV-7",
+      "maker": "Community",
+      "section": "New Architectures",
+      "queries": [
+        "\"RWKV-7\" \"Community\" (release OR launched OR announced OR preview OR beta OR benchmark OR update OR changelog OR safety) after:2026-07-20 before:2026-07-28",
+        "site:official website \"RWKV-7\" \"2026\" \"July\""
+      ]
+    },
+    {
+      "name": "Mamba / Mamba-2",
+      "maker": "Community",
+      "section": "New Architectures",
+      "queries": [
+        "\"Mamba / Mamba-2\" \"Community\" (release OR launched OR announced OR preview OR beta OR benchmark OR update OR changelog OR safety) after:2026-07-20 before:2026-07-28",
+        "site:official website \"Mamba / Mamba-2\" \"2026\" \"July\""
+      ]
+    },
+    {
+      "name": "Liquid LM",
+      "maker": "Liquid AI",
+      "section": "New Architectures",
+      "queries": [
+        "\"Liquid LM\" \"Liquid AI\" (release OR launched OR announced OR preview OR beta OR benchmark OR update OR changelog OR safety) after:2026-07-20 before:2026-07-28",
+        "site:official website \"Liquid LM\" \"2026\" \"July\""
+      ]
+    },
+    {
+      "name": "TinyLlama 1.1B",
+      "maker": "SUTD",
+      "section": "On-Device / Edge Models",
+      "queries": [
+        "\"TinyLlama 1.1B\" \"SUTD\" (release OR launched OR announced OR preview OR beta OR benchmark OR update OR changelog OR safety) after:2026-07-20 before:2026-07-28",
+        "site:official website \"TinyLlama 1.1B\" \"2026\" \"July\""
+      ]
+    },
+    {
+      "name": "MobileLLaMA 1.4B",
+      "maker": "Community",
+      "section": "On-Device / Edge Models",
+      "queries": [
+        "\"MobileLLaMA 1.4B\" \"Community\" (release OR launched OR announced OR preview OR beta OR benchmark OR update OR changelog OR safety) after:2026-07-20 before:2026-07-28",
+        "site:official website \"MobileLLaMA 1.4B\" \"2026\" \"July\""
+      ]
+    },
+    {
+      "name": "LaMini-GPT (774M\u20131.5B)",
+      "maker": "Community",
+      "section": "On-Device / Edge Models",
+      "queries": [
+        "\"LaMini-GPT (774M\u20131.5B)\" \"Community\" (release OR launched OR announced OR preview OR beta OR benchmark OR update OR changelog OR safety) after:2026-07-20 before:2026-07-28",
+        "site:official website \"LaMini-GPT (774M\u20131.5B)\" \"2026\" \"July\""
+      ]
+    },
+    {
+      "name": "Sarvam 30B / 105B",
+      "maker": "Sarvam AI (India)",
+      "section": "Sovereign & Regional Models",
+      "queries": [
+        "\"Sarvam 30B / 105B\" \"Sarvam AI (India)\" (release OR launched OR announced OR preview OR beta OR benchmark OR update OR changelog OR safety) after:2026-07-20 before:2026-07-28",
+        "site:official website \"Sarvam 30B / 105B\" \"2026\" \"July\""
+      ]
+    },
+    {
+      "name": "EXAONE 3.5",
+      "maker": "LG AI Research",
+      "section": "Sovereign & Regional Models",
+      "queries": [
+        "\"EXAONE 3.5\" \"LG AI Research\" (release OR launched OR announced OR preview OR beta OR benchmark OR update OR changelog OR safety) after:2026-07-20 before:2026-07-28",
+        "site:official website \"EXAONE 3.5\" \"2026\" \"July\""
+      ]
+    },
+    {
+      "name": "HyperCLOVA X",
+      "maker": "NAVER",
+      "section": "Sovereign & Regional Models",
+      "queries": [
+        "\"HyperCLOVA X\" \"NAVER\" (release OR launched OR announced OR preview OR beta OR benchmark OR update OR changelog OR safety) after:2026-07-20 before:2026-07-28",
+        "site:official website \"HyperCLOVA X\" \"2026\" \"July\""
+      ]
+    },
+    {
+      "name": "Aleph Alpha Luminous",
+      "maker": "Aleph Alpha",
+      "section": "Sovereign & Regional Models",
+      "queries": [
+        "\"Aleph Alpha Luminous\" \"Aleph Alpha\" (release OR launched OR announced OR preview OR beta OR benchmark OR update OR changelog OR safety) after:2026-07-20 before:2026-07-28",
+        "site:official website \"Aleph Alpha Luminous\" \"2026\" \"July\""
+      ]
+    },
+    {
+      "name": "Salamandra",
+      "maker": "Barcelona Supercomputing",
+      "section": "Sovereign & Regional Models",
+      "queries": [
+        "\"Salamandra\" \"Barcelona Supercomputing\" (release OR launched OR announced OR preview OR beta OR benchmark OR update OR changelog OR safety) after:2026-07-20 before:2026-07-28",
+        "site:official website \"Salamandra\" \"2026\" \"July\""
+      ]
+    },
+    {
+      "name": "SEALLM",
+      "maker": "Community",
+      "section": "Sovereign & Regional Models",
+      "queries": [
+        "\"SEALLM\" \"Community\" (release OR launched OR announced OR preview OR beta OR benchmark OR update OR changelog OR safety) after:2026-07-20 before:2026-07-28",
+        "site:official website \"SEALLM\" \"2026\" \"July\""
+      ]
+    },
+    {
+      "name": "Vikhr",
+      "maker": "Community",
+      "section": "Sovereign & Regional Models",
+      "queries": [
+        "\"Vikhr\" \"Community\" (release OR launched OR announced OR preview OR beta OR benchmark OR update OR changelog OR safety) after:2026-07-20 before:2026-07-28",
+        "site:official website \"Vikhr\" \"2026\" \"July\""
+      ]
+    },
+    {
+      "name": "Bloom",
+      "maker": "BigScience",
+      "section": "Sovereign & Regional Models",
+      "queries": [
+        "\"Bloom\" \"BigScience\" (release OR launched OR announced OR preview OR beta OR benchmark OR update OR changelog OR safety) after:2026-07-20 before:2026-07-28",
+        "site:official website \"Bloom\" \"2026\" \"July\""
+      ]
+    },
+    {
+      "name": "Dicta-LM 3.0",
+      "maker": "Hebrew University",
+      "section": "Sovereign & Regional Models",
+      "queries": [
+        "\"Dicta-LM 3.0\" \"Hebrew University\" (release OR launched OR announced OR preview OR beta OR benchmark OR update OR changelog OR safety) after:2026-07-20 before:2026-07-28",
+        "site:official website \"Dicta-LM 3.0\" \"2026\" \"July\""
+      ]
+    },
+    {
+      "name": "Poro",
+      "maker": "Finnish NLP",
+      "section": "Sovereign & Regional Models",
+      "queries": [
+        "\"Poro\" \"Finnish NLP\" (release OR launched OR announced OR preview OR beta OR benchmark OR update OR changelog OR safety) after:2026-07-20 before:2026-07-28",
+        "site:official website \"Poro\" \"2026\" \"July\""
+      ]
+    },
+    {
+      "name": "fal.ai",
+      "maker": "fal.ai",
+      "section": "Inference & Infrastructure",
+      "queries": [
+        "\"fal.ai\" \"fal.ai\" (release OR launched OR announced OR preview OR beta OR benchmark OR update OR changelog OR safety) after:2026-07-20 before:2026-07-28",
+        "site:official website \"fal.ai\" \"2026\" \"July\""
+      ]
+    },
+    {
+      "name": "Together AI",
+      "maker": "Together AI",
+      "section": "Inference & Infrastructure",
+      "queries": [
+        "\"Together AI\" \"Together AI\" (release OR launched OR announced OR preview OR beta OR benchmark OR update OR changelog OR safety) after:2026-07-20 before:2026-07-28",
+        "site:official website \"Together AI\" \"2026\" \"July\""
+      ]
+    },
+    {
+      "name": "Fireworks AI",
+      "maker": "Fireworks AI",
+      "section": "Inference & Infrastructure",
+      "queries": [
+        "\"Fireworks AI\" \"Fireworks AI\" (release OR launched OR announced OR preview OR beta OR benchmark OR update OR changelog OR safety) after:2026-07-20 before:2026-07-28",
+        "site:official website \"Fireworks AI\" \"2026\" \"July\""
+      ]
+    },
+    {
+      "name": "Baseten",
+      "maker": "Baseten",
+      "section": "Inference & Infrastructure",
+      "queries": [
+        "\"Baseten\" \"Baseten\" (release OR launched OR announced OR preview OR beta OR benchmark OR update OR changelog OR safety) after:2026-07-20 before:2026-07-28",
+        "site:official website \"Baseten\" \"2026\" \"July\""
+      ]
+    },
+    {
+      "name": "Replicate",
+      "maker": "Replicate",
+      "section": "Inference & Infrastructure",
+      "queries": [
+        "\"Replicate\" \"Replicate\" (release OR launched OR announced OR preview OR beta OR benchmark OR update OR changelog OR safety) after:2026-07-20 before:2026-07-28",
+        "site:official website \"Replicate\" \"2026\" \"July\""
+      ]
+    },
+    {
+      "name": "Modal",
+      "maker": "Modal",
+      "section": "Inference & Infrastructure",
+      "queries": [
+        "\"Modal\" \"Modal\" (release OR launched OR announced OR preview OR beta OR benchmark OR update OR changelog OR safety) after:2026-07-20 before:2026-07-28",
+        "site:official website \"Modal\" \"2026\" \"July\""
+      ]
+    },
+    {
+      "name": "OctoAI",
+      "maker": "OctoAI",
+      "section": "Inference & Infrastructure",
+      "queries": [
+        "\"OctoAI\" \"OctoAI\" (release OR launched OR announced OR preview OR beta OR benchmark OR update OR changelog OR safety) after:2026-07-20 before:2026-07-28",
+        "site:official website \"OctoAI\" \"2026\" \"July\""
+      ]
+    },
+    {
+      "name": "DeepInfra",
+      "maker": "DeepInfra",
+      "section": "Inference & Infrastructure",
+      "queries": [
+        "\"DeepInfra\" \"DeepInfra\" (release OR launched OR announced OR preview OR beta OR benchmark OR update OR changelog OR safety) after:2026-07-20 before:2026-07-28",
+        "site:official website \"DeepInfra\" \"2026\" \"July\""
+      ]
+    },
+    {
+      "name": "SambaNova",
+      "maker": "SambaNova",
+      "section": "Inference & Infrastructure",
+      "queries": [
+        "\"SambaNova\" \"SambaNova\" (release OR launched OR announced OR preview OR beta OR benchmark OR update OR changelog OR safety) after:2026-07-20 before:2026-07-28",
+        "site:official website \"SambaNova\" \"2026\" \"July\""
+      ]
+    },
+    {
+      "name": "OpenRouter",
+      "maker": "OpenRouter",
+      "section": "Inference & Infrastructure",
+      "queries": [
+        "\"OpenRouter\" \"OpenRouter\" (release OR launched OR announced OR preview OR beta OR benchmark OR update OR changelog OR safety) after:2026-07-20 before:2026-07-28",
+        "site:official website \"OpenRouter\" \"2026\" \"July\""
+      ]
+    },
+    {
+      "name": "RunPod",
+      "maker": "RunPod",
+      "section": "Inference & Infrastructure",
+      "queries": [
+        "\"RunPod\" \"RunPod\" (release OR launched OR announced OR preview OR beta OR benchmark OR update OR changelog OR safety) after:2026-07-20 before:2026-07-28",
+        "site:official website \"RunPod\" \"2026\" \"July\""
+      ]
+    },
+    {
+      "name": "Hyperbolic",
+      "maker": "Hyperbolic",
+      "section": "Inference & Infrastructure",
+      "queries": [
+        "\"Hyperbolic\" \"Hyperbolic\" (release OR launched OR announced OR preview OR beta OR benchmark OR update OR changelog OR safety) after:2026-07-20 before:2026-07-28",
+        "site:official website \"Hyperbolic\" \"2026\" \"July\""
+      ]
+    },
+    {
+      "name": "Nebius",
+      "maker": "Nebius",
+      "section": "Inference & Infrastructure",
+      "queries": [
+        "\"Nebius\" \"Nebius\" (release OR launched OR announced OR preview OR beta OR benchmark OR update OR changelog OR safety) after:2026-07-20 before:2026-07-28",
+        "site:official website \"Nebius\" \"2026\" \"July\""
+      ]
+    },
+    {
+      "name": "SiliconFlow",
+      "maker": "SiliconFlow",
+      "section": "Inference & Infrastructure",
+      "queries": [
+        "\"SiliconFlow\" \"SiliconFlow\" (release OR launched OR announced OR preview OR beta OR benchmark OR update OR changelog OR safety) after:2026-07-20 before:2026-07-28",
+        "site:official website \"SiliconFlow\" \"2026\" \"July\""
+      ]
+    },
+    {
+      "name": "Anyscale",
+      "maker": "Anyscale",
+      "section": "Inference & Infrastructure",
+      "queries": [
+        "\"Anyscale\" \"Anyscale\" (release OR launched OR announced OR preview OR beta OR benchmark OR update OR changelog OR safety) after:2026-07-20 before:2026-07-28",
+        "site:official website \"Anyscale\" \"2026\" \"July\""
+      ]
+    },
+    {
+      "name": "vLLM",
+      "maker": "Community",
+      "section": "Inference & Infrastructure",
+      "queries": [
+        "\"vLLM\" \"Community\" (release OR launched OR announced OR preview OR beta OR benchmark OR update OR changelog OR safety) after:2026-07-20 before:2026-07-28",
+        "site:official website \"vLLM\" \"2026\" \"July\""
+      ]
+    },
+    {
+      "name": "SGLang",
+      "maker": "Community",
+      "section": "Inference & Infrastructure",
+      "queries": [
+        "\"SGLang\" \"Community\" (release OR launched OR announced OR preview OR beta OR benchmark OR update OR changelog OR safety) after:2026-07-20 before:2026-07-28",
+        "site:official website \"SGLang\" \"2026\" \"July\""
+      ]
+    },
+    {
+      "name": "Ollama",
+      "maker": "Ollama",
+      "section": "Inference & Infrastructure",
+      "queries": [
+        "\"Ollama\" \"Ollama\" (release OR launched OR announced OR preview OR beta OR benchmark OR update OR changelog OR safety) after:2026-07-20 before:2026-07-28",
+        "site:official website \"Ollama\" \"2026\" \"July\""
+      ]
+    },
+    {
+      "name": "LiteLLM",
+      "maker": "BerriAI",
+      "section": "Inference & Infrastructure",
+      "queries": [
+        "\"LiteLLM\" \"BerriAI\" (release OR launched OR announced OR preview OR beta OR benchmark OR update OR changelog OR safety) after:2026-07-20 before:2026-07-28",
+        "site:official website \"LiteLLM\" \"2026\" \"July\""
+      ]
+    },
+    {
+      "name": "Groq LPU",
+      "maker": "Groq",
+      "section": "Hardware",
+      "queries": [
+        "\"Groq LPU\" \"Groq\" (release OR launched OR announced OR preview OR beta OR benchmark OR update OR changelog OR safety) after:2026-07-20 before:2026-07-28",
+        "site:official website \"Groq LPU\" \"2026\" \"July\""
+      ]
+    },
+    {
+      "name": "Cerebras WSE",
+      "maker": "Cerebras",
+      "section": "Hardware",
+      "queries": [
+        "\"Cerebras WSE\" \"Cerebras\" (release OR launched OR announced OR preview OR beta OR benchmark OR update OR changelog OR safety) after:2026-07-20 before:2026-07-28",
+        "site:official website \"Cerebras WSE\" \"2026\" \"July\""
+      ]
+    },
+    {
+      "name": "SambaNova RDU",
+      "maker": "SambaNova",
+      "section": "Hardware",
+      "queries": [
+        "\"SambaNova RDU\" \"SambaNova\" (release OR launched OR announced OR preview OR beta OR benchmark OR update OR changelog OR safety) after:2026-07-20 before:2026-07-28",
+        "site:official website \"SambaNova RDU\" \"2026\" \"July\""
+      ]
+    },
+    {
+      "name": "Tenstorrent",
+      "maker": "Tenstorrent",
+      "section": "Hardware",
+      "queries": [
+        "\"Tenstorrent\" \"Tenstorrent\" (release OR launched OR announced OR preview OR beta OR benchmark OR update OR changelog OR safety) after:2026-07-20 before:2026-07-28",
+        "site:official website \"Tenstorrent\" \"2026\" \"July\""
+      ]
+    },
+    {
+      "name": "Graphcore IPU",
+      "maker": "Graphcore",
+      "section": "Hardware",
+      "queries": [
+        "\"Graphcore IPU\" \"Graphcore\" (release OR launched OR announced OR preview OR beta OR benchmark OR update OR changelog OR safety) after:2026-07-20 before:2026-07-28",
+        "site:official website \"Graphcore IPU\" \"2026\" \"July\""
+      ]
+    },
+    {
+      "name": "Etched",
+      "maker": "Etched",
+      "section": "Hardware",
+      "queries": [
+        "\"Etched\" \"Etched\" (release OR launched OR announced OR preview OR beta OR benchmark OR update OR changelog OR safety) after:2026-07-20 before:2026-07-28",
+        "site:official website \"Etched\" \"2026\" \"July\""
+      ]
+    },
+    {
+      "name": "d-Matrix",
+      "maker": "d-Matrix",
+      "section": "Hardware",
+      "queries": [
+        "\"d-Matrix\" \"d-Matrix\" (release OR launched OR announced OR preview OR beta OR benchmark OR update OR changelog OR safety) after:2026-07-20 before:2026-07-28",
+        "site:official website \"d-Matrix\" \"2026\" \"July\""
+      ]
+    },
+    {
+      "name": "Mythic",
+      "maker": "Mythic",
+      "section": "Hardware",
+      "queries": [
+        "\"Mythic\" \"Mythic\" (release OR launched OR announced OR preview OR beta OR benchmark OR update OR changelog OR safety) after:2026-07-20 before:2026-07-28",
+        "site:official website \"Mythic\" \"2026\" \"July\""
+      ]
+    },
+    {
+      "name": "Untether AI",
+      "maker": "Untether AI",
+      "section": "Hardware",
+      "queries": [
+        "\"Untether AI\" \"Untether AI\" (release OR launched OR announced OR preview OR beta OR benchmark OR update OR changelog OR safety) after:2026-07-20 before:2026-07-28",
+        "site:official website \"Untether AI\" \"2026\" \"July\""
+      ]
+    },
+    {
+      "name": "Scale AI",
+      "maker": "Scale AI",
+      "section": "Data & MLOps",
+      "queries": [
+        "\"Scale AI\" \"Scale AI\" (release OR launched OR announced OR preview OR beta OR benchmark OR update OR changelog OR safety) after:2026-07-20 before:2026-07-28",
+        "site:official website \"Scale AI\" \"2026\" \"July\""
+      ]
+    },
+    {
+      "name": "Weights & Biases",
+      "maker": "Weights & Biases",
+      "section": "Data & MLOps",
+      "queries": [
+        "\"Weights & Biases\" \"Weights & Biases\" (release OR launched OR announced OR preview OR beta OR benchmark OR update OR changelog OR safety) after:2026-07-20 before:2026-07-28",
+        "site:official website \"Weights & Biases\" \"2026\" \"July\""
+      ]
+    },
+    {
+      "name": "Labelbox",
+      "maker": "Labelbox",
+      "section": "Data & MLOps",
+      "queries": [
+        "\"Labelbox\" \"Labelbox\" (release OR launched OR announced OR preview OR beta OR benchmark OR update OR changelog OR safety) after:2026-07-20 before:2026-07-28",
+        "site:official website \"Labelbox\" \"2026\" \"July\""
+      ]
+    },
+    {
+      "name": "Snorkel AI",
+      "maker": "Snorkel AI",
+      "section": "Data & MLOps",
+      "queries": [
+        "\"Snorkel AI\" \"Snorkel AI\" (release OR launched OR announced OR preview OR beta OR benchmark OR update OR changelog OR safety) after:2026-07-20 before:2026-07-28",
+        "site:official website \"Snorkel AI\" \"2026\" \"July\""
+      ]
+    },
+    {
+      "name": "Arize AI",
+      "maker": "Arize AI",
+      "section": "Data & MLOps",
+      "queries": [
+        "\"Arize AI\" \"Arize AI\" (release OR launched OR announced OR preview OR beta OR benchmark OR update OR changelog OR safety) after:2026-07-20 before:2026-07-28",
+        "site:official website \"Arize AI\" \"2026\" \"July\""
+      ]
+    },
+    {
+      "name": "Langfuse",
+      "maker": "Langfuse",
+      "section": "Data & MLOps",
+      "queries": [
+        "\"Langfuse\" \"Langfuse\" (release OR launched OR announced OR preview OR beta OR benchmark OR update OR changelog OR safety) after:2026-07-20 before:2026-07-28",
+        "site:official website \"Langfuse\" \"2026\" \"July\""
+      ]
+    },
+    {
+      "name": "Braintrust",
+      "maker": "Braintrust",
+      "section": "Data & MLOps",
+      "queries": [
+        "\"Braintrust\" \"Braintrust\" (release OR launched OR announced OR preview OR beta OR benchmark OR update OR changelog OR safety) after:2026-07-20 before:2026-07-28",
+        "site:official website \"Braintrust\" \"2026\" \"July\""
+      ]
+    },
+    {
+      "name": "Patronus AI",
+      "maker": "Patronus AI",
+      "section": "Data & MLOps",
+      "queries": [
+        "\"Patronus AI\" \"Patronus AI\" (release OR launched OR announced OR preview OR beta OR benchmark OR update OR changelog OR safety) after:2026-07-20 before:2026-07-28",
+        "site:official website \"Patronus AI\" \"2026\" \"July\""
+      ]
+    },
+    {
+      "name": "Galileo",
+      "maker": "Galileo",
+      "section": "Data & MLOps",
+      "queries": [
+        "\"Galileo\" \"Galileo\" (release OR launched OR announced OR preview OR beta OR benchmark OR update OR changelog OR safety) after:2026-07-20 before:2026-07-28",
+        "site:official website \"Galileo\" \"2026\" \"July\""
+      ]
+    },
+    {
+      "name": "Cleanlab",
+      "maker": "Cleanlab",
+      "section": "Data & MLOps",
+      "queries": [
+        "\"Cleanlab\" \"Cleanlab\" (release OR launched OR announced OR preview OR beta OR benchmark OR update OR changelog OR safety) after:2026-07-20 before:2026-07-28",
+        "site:official website \"Cleanlab\" \"2026\" \"July\""
+      ]
+    },
+    {
+      "name": "Encord",
+      "maker": "Encord",
+      "section": "Data & MLOps",
+      "queries": [
+        "\"Encord\" \"Encord\" (release OR launched OR announced OR preview OR beta OR benchmark OR update OR changelog OR safety) after:2026-07-20 before:2026-07-28",
+        "site:official website \"Encord\" \"2026\" \"July\""
+      ]
+    },
+    {
+      "name": "Argilla",
+      "maker": "Argilla",
+      "section": "Data & MLOps",
+      "queries": [
+        "\"Argilla\" \"Argilla\" (release OR launched OR announced OR preview OR beta OR benchmark OR update OR changelog OR safety) after:2026-07-20 before:2026-07-28",
+        "site:official website \"Argilla\" \"2026\" \"July\""
+      ]
+    },
+    {
+      "name": "WhyLabs",
+      "maker": "WhyLabs",
+      "section": "Data & MLOps",
+      "queries": [
+        "\"WhyLabs\" \"WhyLabs\" (release OR launched OR announced OR preview OR beta OR benchmark OR update OR changelog OR safety) after:2026-07-20 before:2026-07-28",
+        "site:official website \"WhyLabs\" \"2026\" \"July\""
+      ]
+    },
+    {
+      "name": "Pinecone",
+      "maker": "Pinecone",
+      "section": "Vector Databases & RAG",
+      "queries": [
+        "\"Pinecone\" \"Pinecone\" (release OR launched OR announced OR preview OR beta OR benchmark OR update OR changelog OR safety) after:2026-07-20 before:2026-07-28",
+        "site:official website \"Pinecone\" \"2026\" \"July\""
+      ]
+    },
+    {
+      "name": "Weaviate",
+      "maker": "Weaviate",
+      "section": "Vector Databases & RAG",
+      "queries": [
+        "\"Weaviate\" \"Weaviate\" (release OR launched OR announced OR preview OR beta OR benchmark OR update OR changelog OR safety) after:2026-07-20 before:2026-07-28",
+        "site:official website \"Weaviate\" \"2026\" \"July\""
+      ]
+    },
+    {
+      "name": "Milvus / Zilliz",
+      "maker": "Zilliz",
+      "section": "Vector Databases & RAG",
+      "queries": [
+        "\"Milvus / Zilliz\" \"Zilliz\" (release OR launched OR announced OR preview OR beta OR benchmark OR update OR changelog OR safety) after:2026-07-20 before:2026-07-28",
+        "site:official website \"Milvus / Zilliz\" \"2026\" \"July\""
+      ]
+    },
+    {
+      "name": "Qdrant",
+      "maker": "Qdrant",
+      "section": "Vector Databases & RAG",
+      "queries": [
+        "\"Qdrant\" \"Qdrant\" (release OR launched OR announced OR preview OR beta OR benchmark OR update OR changelog OR safety) after:2026-07-20 before:2026-07-28",
+        "site:official website \"Qdrant\" \"2026\" \"July\""
+      ]
+    },
+    {
+      "name": "Chroma",
+      "maker": "Chroma",
+      "section": "Vector Databases & RAG",
+      "queries": [
+        "\"Chroma\" \"Chroma\" (release OR launched OR announced OR preview OR beta OR benchmark OR update OR changelog OR safety) after:2026-07-20 before:2026-07-28",
+        "site:official website \"Chroma\" \"2026\" \"July\""
+      ]
+    },
+    {
+      "name": "LanceDB",
+      "maker": "LanceDB",
+      "section": "Vector Databases & RAG",
+      "queries": [
+        "\"LanceDB\" \"LanceDB\" (release OR launched OR announced OR preview OR beta OR benchmark OR update OR changelog OR safety) after:2026-07-20 before:2026-07-28",
+        "site:official website \"LanceDB\" \"2026\" \"July\""
+      ]
+    },
+    {
+      "name": "Vectara",
+      "maker": "Vectara",
+      "section": "Vector Databases & RAG",
+      "queries": [
+        "\"Vectara\" \"Vectara\" (release OR launched OR announced OR preview OR beta OR benchmark OR update OR changelog OR safety) after:2026-07-20 before:2026-07-28",
+        "site:official website \"Vectara\" \"2026\" \"July\""
+      ]
+    },
+    {
+      "name": "LangChain",
+      "maker": "LangChain",
+      "section": "Open-Source Frameworks",
+      "queries": [
+        "\"LangChain\" \"LangChain\" (release OR launched OR announced OR preview OR beta OR benchmark OR update OR changelog OR safety) after:2026-07-20 before:2026-07-28",
+        "site:official website \"LangChain\" \"2026\" \"July\""
+      ]
+    },
+    {
+      "name": "LlamaIndex",
+      "maker": "LlamaIndex",
+      "section": "Open-Source Frameworks",
+      "queries": [
+        "\"LlamaIndex\" \"LlamaIndex\" (release OR launched OR announced OR preview OR beta OR benchmark OR update OR changelog OR safety) after:2026-07-20 before:2026-07-28",
+        "site:official website \"LlamaIndex\" \"2026\" \"July\""
+      ]
+    },
+    {
+      "name": "CrewAI",
+      "maker": "CrewAI",
+      "section": "Open-Source Frameworks",
+      "queries": [
+        "\"CrewAI\" \"CrewAI\" (release OR launched OR announced OR preview OR beta OR benchmark OR update OR changelog OR safety) after:2026-07-20 before:2026-07-28",
+        "site:official website \"CrewAI\" \"2026\" \"July\""
+      ]
+    },
+    {
+      "name": "DSPy",
+      "maker": "Stanford NLP",
+      "section": "Open-Source Frameworks",
+      "queries": [
+        "\"DSPy\" \"Stanford NLP\" (release OR launched OR announced OR preview OR beta OR benchmark OR update OR changelog OR safety) after:2026-07-20 before:2026-07-28",
+        "site:official website \"DSPy\" \"2026\" \"July\""
+      ]
+    },
+    {
+      "name": "Haystack",
+      "maker": "deepset",
+      "section": "Open-Source Frameworks",
+      "queries": [
+        "\"Haystack\" \"deepset\" (release OR launched OR announced OR preview OR beta OR benchmark OR update OR changelog OR safety) after:2026-07-20 before:2026-07-28",
+        "site:official website \"Haystack\" \"2026\" \"July\""
+      ]
+    },
+    {
+      "name": "Flowise",
+      "maker": "Flowise",
+      "section": "Open-Source Frameworks",
+      "queries": [
+        "\"Flowise\" \"Flowise\" (release OR launched OR announced OR preview OR beta OR benchmark OR update OR changelog OR safety) after:2026-07-20 before:2026-07-28",
+        "site:official website \"Flowise\" \"2026\" \"July\""
+      ]
+    },
+    {
+      "name": "Axolotl",
+      "maker": "Community",
+      "section": "Open-Source Frameworks",
+      "queries": [
+        "\"Axolotl\" \"Community\" (release OR launched OR announced OR preview OR beta OR benchmark OR update OR changelog OR safety) after:2026-07-20 before:2026-07-28",
+        "site:official website \"Axolotl\" \"2026\" \"July\""
+      ]
+    },
+    {
+      "name": "Unsloth",
+      "maker": "Unsloth",
+      "section": "Open-Source Frameworks",
+      "queries": [
+        "\"Unsloth\" \"Unsloth\" (release OR launched OR announced OR preview OR beta OR benchmark OR update OR changelog OR safety) after:2026-07-20 before:2026-07-28",
+        "site:official website \"Unsloth\" \"2026\" \"July\""
+      ]
+    },
+    {
+      "name": "Outlines",
+      "maker": "Outlines",
+      "section": "Open-Source Frameworks",
+      "queries": [
+        "\"Outlines\" \"Outlines\" (release OR launched OR announced OR preview OR beta OR benchmark OR update OR changelog OR safety) after:2026-07-20 before:2026-07-28",
+        "site:official website \"Outlines\" \"2026\" \"July\""
+      ]
+    },
+    {
+      "name": "OpenHands",
+      "maker": "All-Hands.ai",
+      "section": "Open-Source Frameworks",
+      "queries": [
+        "\"OpenHands\" \"All-Hands.ai\" (release OR launched OR announced OR preview OR beta OR benchmark OR update OR changelog OR safety) after:2026-07-20 before:2026-07-28",
+        "site:official website \"OpenHands\" \"2026\" \"July\""
+      ]
+    },
+    {
+      "name": "SWE-agent",
+      "maker": "Princeton NLP",
+      "section": "Open-Source Frameworks",
+      "queries": [
+        "\"SWE-agent\" \"Princeton NLP\" (release OR launched OR announced OR preview OR beta OR benchmark OR update OR changelog OR safety) after:2026-07-20 before:2026-07-28",
+        "site:official website \"SWE-agent\" \"2026\" \"July\""
+      ]
+    },
+    {
+      "name": "xLAM",
+      "maker": "Salesforce AI Research",
+      "section": "Open-Source Frameworks",
+      "queries": [
+        "\"xLAM\" \"Salesforce AI Research\" (release OR launched OR announced OR preview OR beta OR benchmark OR update OR changelog OR safety) after:2026-07-20 before:2026-07-28",
+        "site:official website \"xLAM\" \"2026\" \"July\""
+      ]
+    },
+    {
+      "name": "Gorilla OpenFunctions",
+      "maker": "UC Berkeley",
+      "section": "Open-Source Frameworks",
+      "queries": [
+        "\"Gorilla OpenFunctions\" \"UC Berkeley\" (release OR launched OR announced OR preview OR beta OR benchmark OR update OR changelog OR safety) after:2026-07-20 before:2026-07-28",
+        "site:official website \"Gorilla OpenFunctions\" \"2026\" \"July\""
+      ]
+    },
+    {
+      "name": "n8n",
+      "maker": "n8n",
+      "section": "Automation & Agents",
+      "queries": [
+        "\"n8n\" \"n8n\" (release OR launched OR announced OR preview OR beta OR benchmark OR update OR changelog OR safety) after:2026-07-20 before:2026-07-28",
+        "site:official website \"n8n\" \"2026\" \"July\""
+      ]
+    },
+    {
+      "name": "Relevance AI",
+      "maker": "Relevance AI",
+      "section": "Automation & Agents",
+      "queries": [
+        "\"Relevance AI\" \"Relevance AI\" (release OR launched OR announced OR preview OR beta OR benchmark OR update OR changelog OR safety) after:2026-07-20 before:2026-07-28",
+        "site:official website \"Relevance AI\" \"2026\" \"July\""
+      ]
+    },
+    {
+      "name": "Gumloop",
+      "maker": "Gumloop",
+      "section": "Automation & Agents",
+      "queries": [
+        "\"Gumloop\" \"Gumloop\" (release OR launched OR announced OR preview OR beta OR benchmark OR update OR changelog OR safety) after:2026-07-20 before:2026-07-28",
+        "site:official website \"Gumloop\" \"2026\" \"July\""
+      ]
+    },
+    {
+      "name": "Zapier",
+      "maker": "Zapier",
+      "section": "Automation & Agents",
+      "queries": [
+        "\"Zapier\" \"Zapier\" (release OR launched OR announced OR preview OR beta OR benchmark OR update OR changelog OR safety) after:2026-07-20 before:2026-07-28",
+        "site:official website \"Zapier\" \"2026\" \"July\""
+      ]
+    },
+    {
+      "name": "Make (Integromat)",
+      "maker": "Make",
+      "section": "Automation & Agents",
+      "queries": [
+        "\"Make (Integromat)\" \"Make\" (release OR launched OR announced OR preview OR beta OR benchmark OR update OR changelog OR safety) after:2026-07-20 before:2026-07-28",
+        "site:official website \"Make (Integromat)\" \"2026\" \"July\""
+      ]
+    },
+    {
+      "name": "Lindy AI",
+      "maker": "Lindy",
+      "section": "Automation & Agents",
+      "queries": [
+        "\"Lindy AI\" \"Lindy\" (release OR launched OR announced OR preview OR beta OR benchmark OR update OR changelog OR safety) after:2026-07-20 before:2026-07-28",
+        "site:official website \"Lindy AI\" \"2026\" \"July\""
+      ]
+    },
+    {
+      "name": "Activepieces",
+      "maker": "Activepieces",
+      "section": "Automation & Agents",
+      "queries": [
+        "\"Activepieces\" \"Activepieces\" (release OR launched OR announced OR preview OR beta OR benchmark OR update OR changelog OR safety) after:2026-07-20 before:2026-07-28",
+        "site:official website \"Activepieces\" \"2026\" \"July\""
+      ]
+    },
+    {
+      "name": "Sierra",
+      "maker": "Sierra",
+      "section": "Automation & Agents",
+      "queries": [
+        "\"Sierra\" \"Sierra\" (release OR launched OR announced OR preview OR beta OR benchmark OR update OR changelog OR safety) after:2026-07-20 before:2026-07-28",
+        "site:official website \"Sierra\" \"2026\" \"July\""
+      ]
+    },
+    {
+      "name": "Decagon",
+      "maker": "Decagon",
+      "section": "Automation & Agents",
+      "queries": [
+        "\"Decagon\" \"Decagon\" (release OR launched OR announced OR preview OR beta OR benchmark OR update OR changelog OR safety) after:2026-07-20 before:2026-07-28",
+        "site:official website \"Decagon\" \"2026\" \"July\""
+      ]
+    },
+    {
+      "name": "Taskade",
+      "maker": "Taskade",
+      "section": "Automation & Agents",
+      "queries": [
+        "\"Taskade\" \"Taskade\" (release OR launched OR announced OR preview OR beta OR benchmark OR update OR changelog OR safety) after:2026-07-20 before:2026-07-28",
+        "site:official website \"Taskade\" \"2026\" \"July\""
+      ]
+    },
+    {
+      "name": "Glean (Waldo model)",
+      "maker": "Glean",
+      "section": "Automation & Agents",
+      "queries": [
+        "\"Glean (Waldo model)\" \"Glean\" (release OR launched OR announced OR preview OR beta OR benchmark OR update OR changelog OR safety) after:2026-07-20 before:2026-07-28",
+        "site:official website \"Glean (Waldo model)\" \"2026\" \"July\""
+      ]
+    },
+    {
+      "name": "Cursor",
+      "maker": "Anysphere",
+      "section": "Code & Dev Tools",
+      "queries": [
+        "\"Cursor\" \"Anysphere\" (release OR launched OR announced OR preview OR beta OR benchmark OR update OR changelog OR safety) after:2026-07-20 before:2026-07-28",
+        "site:official website \"Cursor\" \"2026\" \"July\""
+      ]
+    },
+    {
+      "name": "Windsurf (Codeium)",
+      "maker": "Codeium",
+      "section": "Code & Dev Tools",
+      "queries": [
+        "\"Windsurf (Codeium)\" \"Codeium\" (release OR launched OR announced OR preview OR beta OR benchmark OR update OR changelog OR safety) after:2026-07-20 before:2026-07-28",
+        "site:official website \"Windsurf (Codeium)\" \"2026\" \"July\""
+      ]
+    },
+    {
+      "name": "Devin",
+      "maker": "Cognition AI",
+      "section": "Code & Dev Tools",
+      "queries": [
+        "\"Devin\" \"Cognition AI\" (release OR launched OR announced OR preview OR beta OR benchmark OR update OR changelog OR safety) after:2026-07-20 before:2026-07-28",
+        "site:official website \"Devin\" \"2026\" \"July\""
+      ]
+    },
+    {
+      "name": "CodeRabbit",
+      "maker": "CodeRabbit",
+      "section": "Code & Dev Tools",
+      "queries": [
+        "\"CodeRabbit\" \"CodeRabbit\" (release OR launched OR announced OR preview OR beta OR benchmark OR update OR changelog OR safety) after:2026-07-20 before:2026-07-28",
+        "site:official website \"CodeRabbit\" \"2026\" \"July\""
+      ]
+    },
+    {
+      "name": "Greptile",
+      "maker": "Greptile",
+      "section": "Code & Dev Tools",
+      "queries": [
+        "\"Greptile\" \"Greptile\" (release OR launched OR announced OR preview OR beta OR benchmark OR update OR changelog OR safety) after:2026-07-20 before:2026-07-28",
+        "site:official website \"Greptile\" \"2026\" \"July\""
+      ]
+    },
+    {
+      "name": "Qodo (Merge)",
+      "maker": "Qodo",
+      "section": "Code & Dev Tools",
+      "queries": [
+        "\"Qodo (Merge)\" \"Qodo\" (release OR launched OR announced OR preview OR beta OR benchmark OR update OR changelog OR safety) after:2026-07-20 before:2026-07-28",
+        "site:official website \"Qodo (Merge)\" \"2026\" \"July\""
+      ]
+    },
+    {
+      "name": "Continue.dev",
+      "maker": "Continue",
+      "section": "Code & Dev Tools",
+      "queries": [
+        "\"Continue.dev\" \"Continue\" (release OR launched OR announced OR preview OR beta OR benchmark OR update OR changelog OR safety) after:2026-07-20 before:2026-07-28",
+        "site:official website \"Continue.dev\" \"2026\" \"July\""
+      ]
+    },
+    {
+      "name": "Sweep AI",
+      "maker": "Sweep",
+      "section": "Code & Dev Tools",
+      "queries": [
+        "\"Sweep AI\" \"Sweep\" (release OR launched OR announced OR preview OR beta OR benchmark OR update OR changelog OR safety) after:2026-07-20 before:2026-07-28",
+        "site:official website \"Sweep AI\" \"2026\" \"July\""
+      ]
+    },
+    {
+      "name": "Tabnine",
+      "maker": "Tabnine",
+      "section": "Code & Dev Tools",
+      "queries": [
+        "\"Tabnine\" \"Tabnine\" (release OR launched OR announced OR preview OR beta OR benchmark OR update OR changelog OR safety) after:2026-07-20 before:2026-07-28",
+        "site:official website \"Tabnine\" \"2026\" \"July\""
+      ]
+    },
+    {
+      "name": "Sourcegraph Cody",
+      "maker": "Sourcegraph",
+      "section": "Code & Dev Tools",
+      "queries": [
+        "\"Sourcegraph Cody\" \"Sourcegraph\" (release OR launched OR announced OR preview OR beta OR benchmark OR update OR changelog OR safety) after:2026-07-20 before:2026-07-28",
+        "site:official website \"Sourcegraph Cody\" \"2026\" \"July\""
+      ]
+    },
+    {
+      "name": "Poolside Maven",
+      "maker": "Poolside",
+      "section": "Code & Dev Tools",
+      "queries": [
+        "\"Poolside Maven\" \"Poolside\" (release OR launched OR announced OR preview OR beta OR benchmark OR update OR changelog OR safety) after:2026-07-20 before:2026-07-28",
+        "site:official website \"Poolside Maven\" \"2026\" \"July\""
+      ]
+    },
+    {
+      "name": "Harness",
+      "maker": "Harness",
+      "section": "Code & Dev Tools",
+      "queries": [
+        "\"Harness\" \"Harness\" (release OR launched OR announced OR preview OR beta OR benchmark OR update OR changelog OR safety) after:2026-07-20 before:2026-07-28",
+        "site:official website \"Harness\" \"2026\" \"July\""
+      ]
+    },
+    {
+      "name": "Lovable",
+      "maker": "Lovable",
+      "section": "No-Code / App Builders",
+      "queries": [
+        "\"Lovable\" \"Lovable\" (release OR launched OR announced OR preview OR beta OR benchmark OR update OR changelog OR safety) after:2026-07-20 before:2026-07-28",
+        "site:official website \"Lovable\" \"2026\" \"July\""
+      ]
+    },
+    {
+      "name": "Bolt.new",
+      "maker": "StackBlitz",
+      "section": "No-Code / App Builders",
+      "queries": [
+        "\"Bolt.new\" \"StackBlitz\" (release OR launched OR announced OR preview OR beta OR benchmark OR update OR changelog OR safety) after:2026-07-20 before:2026-07-28",
+        "site:official website \"Bolt.new\" \"2026\" \"July\""
+      ]
+    },
+    {
+      "name": "v0 (Vercel)",
+      "maker": "Vercel",
+      "section": "No-Code / App Builders",
+      "queries": [
+        "\"v0 (Vercel)\" \"Vercel\" (release OR launched OR announced OR preview OR beta OR benchmark OR update OR changelog OR safety) after:2026-07-20 before:2026-07-28",
+        "site:official website \"v0 (Vercel)\" \"2026\" \"July\""
+      ]
+    },
+    {
+      "name": "Replit Agent",
+      "maker": "Replit",
+      "section": "No-Code / App Builders",
+      "queries": [
+        "\"Replit Agent\" \"Replit\" (release OR launched OR announced OR preview OR beta OR benchmark OR update OR changelog OR safety) after:2026-07-20 before:2026-07-28",
+        "site:official website \"Replit Agent\" \"2026\" \"July\""
+      ]
+    },
+    {
+      "name": "Bubble",
+      "maker": "Bubble",
+      "section": "No-Code / App Builders",
+      "queries": [
+        "\"Bubble\" \"Bubble\" (release OR launched OR announced OR preview OR beta OR benchmark OR update OR changelog OR safety) after:2026-07-20 before:2026-07-28",
+        "site:official website \"Bubble\" \"2026\" \"July\""
+      ]
+    },
+    {
+      "name": "Softr",
+      "maker": "Softr",
+      "section": "No-Code / App Builders",
+      "queries": [
+        "\"Softr\" \"Softr\" (release OR launched OR announced OR preview OR beta OR benchmark OR update OR changelog OR safety) after:2026-07-20 before:2026-07-28",
+        "site:official website \"Softr\" \"2026\" \"July\""
+      ]
+    },
+    {
+      "name": "Base44 (\u2192 Wix)",
+      "maker": "Base44",
+      "section": "No-Code / App Builders",
+      "queries": [
+        "\"Base44 (\u2192 Wix)\" \"Base44\" (release OR launched OR announced OR preview OR beta OR benchmark OR update OR changelog OR safety) after:2026-07-20 before:2026-07-28",
+        "site:official website \"Base44 (\u2192 Wix)\" \"2026\" \"July\""
+      ]
+    },
+    {
+      "name": "FlutterFlow",
+      "maker": "FlutterFlow",
+      "section": "No-Code / App Builders",
+      "queries": [
+        "\"FlutterFlow\" \"FlutterFlow\" (release OR launched OR announced OR preview OR beta OR benchmark OR update OR changelog OR safety) after:2026-07-20 before:2026-07-28",
+        "site:official website \"FlutterFlow\" \"2026\" \"July\""
+      ]
+    },
+    {
+      "name": "Glide",
+      "maker": "Glide",
+      "section": "No-Code / App Builders",
+      "queries": [
+        "\"Glide\" \"Glide\" (release OR launched OR announced OR preview OR beta OR benchmark OR update OR changelog OR safety) after:2026-07-20 before:2026-07-28",
+        "site:official website \"Glide\" \"2026\" \"July\""
+      ]
+    },
+    {
+      "name": "MindStudio",
+      "maker": "MindStudio",
+      "section": "No-Code / App Builders",
+      "queries": [
+        "\"MindStudio\" \"MindStudio\" (release OR launched OR announced OR preview OR beta OR benchmark OR update OR changelog OR safety) after:2026-07-20 before:2026-07-28",
+        "site:official website \"MindStudio\" \"2026\" \"July\""
+      ]
+    },
+    {
+      "name": "Pickaxe",
+      "maker": "Pickaxe",
+      "section": "No-Code / App Builders",
+      "queries": [
+        "\"Pickaxe\" \"Pickaxe\" (release OR launched OR announced OR preview OR beta OR benchmark OR update OR changelog OR safety) after:2026-07-20 before:2026-07-28",
+        "site:official website \"Pickaxe\" \"2026\" \"July\""
+      ]
+    },
+    {
+      "name": "Stack AI",
+      "maker": "Stack AI",
+      "section": "No-Code / App Builders",
+      "queries": [
+        "\"Stack AI\" \"Stack AI\" (release OR launched OR announced OR preview OR beta OR benchmark OR update OR changelog OR safety) after:2026-07-20 before:2026-07-28",
+        "site:official website \"Stack AI\" \"2026\" \"July\""
+      ]
+    },
+    {
+      "name": "Poe (by Quora)",
+      "maker": "Quora",
+      "section": "Multi-Model Aggregators",
+      "queries": [
+        "\"Poe (by Quora)\" \"Quora\" (release OR launched OR announced OR preview OR beta OR benchmark OR update OR changelog OR safety) after:2026-07-20 before:2026-07-28",
+        "site:official website \"Poe (by Quora)\" \"2026\" \"July\""
+      ]
+    },
+    {
+      "name": "TypingMind",
+      "maker": "TypingMind",
+      "section": "Multi-Model Aggregators",
+      "queries": [
+        "\"TypingMind\" \"TypingMind\" (release OR launched OR announced OR preview OR beta OR benchmark OR update OR changelog OR safety) after:2026-07-20 before:2026-07-28",
+        "site:official website \"TypingMind\" \"2026\" \"July\""
+      ]
+    },
+    {
+      "name": "Aymo AI (ex-Geeky.chat)",
+      "maker": "Aymo",
+      "section": "Multi-Model Aggregators",
+      "queries": [
+        "\"Aymo AI (ex-Geeky.chat)\" \"Aymo\" (release OR launched OR announced OR preview OR beta OR benchmark OR update OR changelog OR safety) after:2026-07-20 before:2026-07-28",
+        "site:official website \"Aymo AI (ex-Geeky.chat)\" \"2026\" \"July\""
+      ]
+    },
+    {
+      "name": "Mammouth AI",
+      "maker": "Mammouth",
+      "section": "Multi-Model Aggregators",
+      "queries": [
+        "\"Mammouth AI\" \"Mammouth\" (release OR launched OR announced OR preview OR beta OR benchmark OR update OR changelog OR safety) after:2026-07-20 before:2026-07-28",
+        "site:official website \"Mammouth AI\" \"2026\" \"July\""
+      ]
+    },
+    {
+      "name": "MagAI",
+      "maker": "MagAI",
+      "section": "Multi-Model Aggregators",
+      "queries": [
+        "\"MagAI\" \"MagAI\" (release OR launched OR announced OR preview OR beta OR benchmark OR update OR changelog OR safety) after:2026-07-20 before:2026-07-28",
+        "site:official website \"MagAI\" \"2026\" \"July\""
+      ]
+    },
+    {
+      "name": "EaseMate AI",
+      "maker": "EaseMate",
+      "section": "Multi-Model Aggregators",
+      "queries": [
+        "\"EaseMate AI\" \"EaseMate\" (release OR launched OR announced OR preview OR beta OR benchmark OR update OR changelog OR safety) after:2026-07-20 before:2026-07-28",
+        "site:official website \"EaseMate AI\" \"2026\" \"July\""
+      ]
+    },
+    {
+      "name": "TeamAI",
+      "maker": "TeamAI",
+      "section": "Multi-Model Aggregators",
+      "queries": [
+        "\"TeamAI\" \"TeamAI\" (release OR launched OR announced OR preview OR beta OR benchmark OR update OR changelog OR safety) after:2026-07-20 before:2026-07-28",
+        "site:official website \"TeamAI\" \"2026\" \"July\""
+      ]
+    },
+    {
+      "name": "Monica AI",
+      "maker": "Monica",
+      "section": "Multi-Model Aggregators",
+      "queries": [
+        "\"Monica AI\" \"Monica\" (release OR launched OR announced OR preview OR beta OR benchmark OR update OR changelog OR safety) after:2026-07-20 before:2026-07-28",
+        "site:official website \"Monica AI\" \"2026\" \"July\""
+      ]
+    },
+    {
+      "name": "You.com",
+      "maker": "You.com",
+      "section": "Multi-Model Aggregators",
+      "queries": [
+        "\"You.com\" \"You.com\" (release OR launched OR announced OR preview OR beta OR benchmark OR update OR changelog OR safety) after:2026-07-20 before:2026-07-28",
+        "site:official website \"You.com\" \"2026\" \"July\""
+      ]
+    },
+    {
+      "name": "Gamma",
+      "maker": "Gamma",
+      "section": "Presentations & Docs",
+      "queries": [
+        "\"Gamma\" \"Gamma\" (release OR launched OR announced OR preview OR beta OR benchmark OR update OR changelog OR safety) after:2026-07-20 before:2026-07-28",
+        "site:official website \"Gamma\" \"2026\" \"July\""
+      ]
+    },
+    {
+      "name": "Napkin AI",
+      "maker": "Napkin",
+      "section": "Presentations & Docs",
+      "queries": [
+        "\"Napkin AI\" \"Napkin\" (release OR launched OR announced OR preview OR beta OR benchmark OR update OR changelog OR safety) after:2026-07-20 before:2026-07-28",
+        "site:official website \"Napkin AI\" \"2026\" \"July\""
+      ]
+    },
+    {
+      "name": "Beautiful.ai",
+      "maker": "Beautiful.ai",
+      "section": "Presentations & Docs",
+      "queries": [
+        "\"Beautiful.ai\" \"Beautiful.ai\" (release OR launched OR announced OR preview OR beta OR benchmark OR update OR changelog OR safety) after:2026-07-20 before:2026-07-28",
+        "site:official website \"Beautiful.ai\" \"2026\" \"July\""
+      ]
+    },
+    {
+      "name": "Slidebean",
+      "maker": "Slidebean",
+      "section": "Presentations & Docs",
+      "queries": [
+        "\"Slidebean\" \"Slidebean\" (release OR launched OR announced OR preview OR beta OR benchmark OR update OR changelog OR safety) after:2026-07-20 before:2026-07-28",
+        "site:official website \"Slidebean\" \"2026\" \"July\""
+      ]
+    },
+    {
+      "name": "Notion AI",
+      "maker": "Notion",
+      "section": "Presentations & Docs",
+      "queries": [
+        "\"Notion AI\" \"Notion\" (release OR launched OR announced OR preview OR beta OR benchmark OR update OR changelog OR safety) after:2026-07-20 before:2026-07-28",
+        "site:official website \"Notion AI\" \"2026\" \"July\""
+      ]
+    },
+    {
+      "name": "Grammarly",
+      "maker": "Grammarly",
+      "section": "Presentations & Docs",
+      "queries": [
+        "\"Grammarly\" \"Grammarly\" (release OR launched OR announced OR preview OR beta OR benchmark OR update OR changelog OR safety) after:2026-07-20 before:2026-07-28",
+        "site:official website \"Grammarly\" \"2026\" \"July\""
+      ]
+    },
+    {
+      "name": "Jasper AI",
+      "maker": "Jasper",
+      "section": "Presentations & Docs",
+      "queries": [
+        "\"Jasper AI\" \"Jasper\" (release OR launched OR announced OR preview OR beta OR benchmark OR update OR changelog OR safety) after:2026-07-20 before:2026-07-28",
+        "site:official website \"Jasper AI\" \"2026\" \"July\""
+      ]
+    },
+    {
+      "name": "Copy.ai",
+      "maker": "Copy.ai",
+      "section": "Presentations & Docs",
+      "queries": [
+        "\"Copy.ai\" \"Copy.ai\" (release OR launched OR announced OR preview OR beta OR benchmark OR update OR changelog OR safety) after:2026-07-20 before:2026-07-28",
+        "site:official website \"Copy.ai\" \"2026\" \"July\""
+      ]
+    },
+    {
+      "name": "Writesonic",
+      "maker": "Writesonic",
+      "section": "Presentations & Docs",
+      "queries": [
+        "\"Writesonic\" \"Writesonic\" (release OR launched OR announced OR preview OR beta OR benchmark OR update OR changelog OR safety) after:2026-07-20 before:2026-07-28",
+        "site:official website \"Writesonic\" \"2026\" \"July\""
+      ]
+    },
+    {
+      "name": "Typeface",
+      "maker": "Typeface",
+      "section": "Presentations & Docs",
+      "queries": [
+        "\"Typeface\" \"Typeface\" (release OR launched OR announced OR preview OR beta OR benchmark OR update OR changelog OR safety) after:2026-07-20 before:2026-07-28",
+        "site:official website \"Typeface\" \"2026\" \"July\""
+      ]
+    },
+    {
+      "name": "Fathom",
+      "maker": "Fathom",
+      "section": "Meeting Intelligence",
+      "queries": [
+        "\"Fathom\" \"Fathom\" (release OR launched OR announced OR preview OR beta OR benchmark OR update OR changelog OR safety) after:2026-07-20 before:2026-07-28",
+        "site:official website \"Fathom\" \"2026\" \"July\""
+      ]
+    },
+    {
+      "name": "Otter.ai",
+      "maker": "Otter",
+      "section": "Meeting Intelligence",
+      "queries": [
+        "\"Otter.ai\" \"Otter\" (release OR launched OR announced OR preview OR beta OR benchmark OR update OR changelog OR safety) after:2026-07-20 before:2026-07-28",
+        "site:official website \"Otter.ai\" \"2026\" \"July\""
+      ]
+    },
+    {
+      "name": "Fireflies.ai",
+      "maker": "Fireflies",
+      "section": "Meeting Intelligence",
+      "queries": [
+        "\"Fireflies.ai\" \"Fireflies\" (release OR launched OR announced OR preview OR beta OR benchmark OR update OR changelog OR safety) after:2026-07-20 before:2026-07-28",
+        "site:official website \"Fireflies.ai\" \"2026\" \"July\""
+      ]
+    },
+    {
+      "name": "Gong",
+      "maker": "Gong",
+      "section": "Meeting Intelligence",
+      "queries": [
+        "\"Gong\" \"Gong\" (release OR launched OR announced OR preview OR beta OR benchmark OR update OR changelog OR safety) after:2026-07-20 before:2026-07-28",
+        "site:official website \"Gong\" \"2026\" \"July\""
+      ]
+    },
+    {
+      "name": "Grain",
+      "maker": "Grain",
+      "section": "Meeting Intelligence",
+      "queries": [
+        "\"Grain\" \"Grain\" (release OR launched OR announced OR preview OR beta OR benchmark OR update OR changelog OR safety) after:2026-07-20 before:2026-07-28",
+        "site:official website \"Grain\" \"2026\" \"July\""
+      ]
+    },
+    {
+      "name": "tl;dv",
+      "maker": "tl;dv",
+      "section": "Meeting Intelligence",
+      "queries": [
+        "\"tl;dv\" \"tl;dv\" (release OR launched OR announced OR preview OR beta OR benchmark OR update OR changelog OR safety) after:2026-07-20 before:2026-07-28",
+        "site:official website \"tl;dv\" \"2026\" \"July\""
+      ]
+    },
+    {
+      "name": "Read.ai",
+      "maker": "Read.ai",
+      "section": "Meeting Intelligence",
+      "queries": [
+        "\"Read.ai\" \"Read.ai\" (release OR launched OR announced OR preview OR beta OR benchmark OR update OR changelog OR safety) after:2026-07-20 before:2026-07-28",
+        "site:official website \"Read.ai\" \"2026\" \"July\""
+      ]
+    },
+    {
+      "name": "Krisp",
+      "maker": "Krisp",
+      "section": "Meeting Intelligence",
+      "queries": [
+        "\"Krisp\" \"Krisp\" (release OR launched OR announced OR preview OR beta OR benchmark OR update OR changelog OR safety) after:2026-07-20 before:2026-07-28",
+        "site:official website \"Krisp\" \"2026\" \"July\""
+      ]
+    },
+    {
+      "name": "ManyChat",
+      "maker": "ManyChat",
+      "section": "Chatbots & Marketing",
+      "queries": [
+        "\"ManyChat\" \"ManyChat\" (release OR launched OR announced OR preview OR beta OR benchmark OR update OR changelog OR safety) after:2026-07-20 before:2026-07-28",
+        "site:official website \"ManyChat\" \"2026\" \"July\""
+      ]
+    },
+    {
+      "name": "Botpress",
+      "maker": "Botpress",
+      "section": "Chatbots & Marketing",
+      "queries": [
+        "\"Botpress\" \"Botpress\" (release OR launched OR announced OR preview OR beta OR benchmark OR update OR changelog OR safety) after:2026-07-20 before:2026-07-28",
+        "site:official website \"Botpress\" \"2026\" \"July\""
+      ]
+    },
+    {
+      "name": "Voiceflow",
+      "maker": "Voiceflow",
+      "section": "Chatbots & Marketing",
+      "queries": [
+        "\"Voiceflow\" \"Voiceflow\" (release OR launched OR announced OR preview OR beta OR benchmark OR update OR changelog OR safety) after:2026-07-20 before:2026-07-28",
+        "site:official website \"Voiceflow\" \"2026\" \"July\""
+      ]
+    },
+    {
+      "name": "Intercom Fin",
+      "maker": "Intercom",
+      "section": "Chatbots & Marketing",
+      "queries": [
+        "\"Intercom Fin\" \"Intercom\" (release OR launched OR announced OR preview OR beta OR benchmark OR update OR changelog OR safety) after:2026-07-20 before:2026-07-28",
+        "site:official website \"Intercom Fin\" \"2026\" \"July\""
+      ]
+    },
+    {
+      "name": "Chatfuel",
+      "maker": "Chatfuel",
+      "section": "Chatbots & Marketing",
+      "queries": [
+        "\"Chatfuel\" \"Chatfuel\" (release OR launched OR announced OR preview OR beta OR benchmark OR update OR changelog OR safety) after:2026-07-20 before:2026-07-28",
+        "site:official website \"Chatfuel\" \"2026\" \"July\""
+      ]
+    },
+    {
+      "name": "Tidio",
+      "maker": "Tidio",
+      "section": "Chatbots & Marketing",
+      "queries": [
+        "\"Tidio\" \"Tidio\" (release OR launched OR announced OR preview OR beta OR benchmark OR update OR changelog OR safety) after:2026-07-20 before:2026-07-28",
+        "site:official website \"Tidio\" \"2026\" \"July\""
+      ]
+    },
+    {
+      "name": "Character.AI",
+      "maker": "Character.AI",
+      "section": "Chatbots & Marketing",
+      "queries": [
+        "\"Character.AI\" \"Character.AI\" (release OR launched OR announced OR preview OR beta OR benchmark OR update OR changelog OR safety) after:2026-07-20 before:2026-07-28",
+        "site:official website \"Character.AI\" \"2026\" \"July\""
+      ]
+    },
+    {
+      "name": "Hippocratic AI",
+      "maker": "Hippocratic AI",
+      "section": "Vertical AI \u2014 Healthcare",
+      "queries": [
+        "\"Hippocratic AI\" \"Hippocratic AI\" (release OR launched OR announced OR preview OR beta OR benchmark OR update OR changelog OR safety) after:2026-07-20 before:2026-07-28",
+        "site:official website \"Hippocratic AI\" \"2026\" \"July\""
+      ]
+    },
+    {
+      "name": "Abridge",
+      "maker": "Abridge",
+      "section": "Vertical AI \u2014 Healthcare",
+      "queries": [
+        "\"Abridge\" \"Abridge\" (release OR launched OR announced OR preview OR beta OR benchmark OR update OR changelog OR safety) after:2026-07-20 before:2026-07-28",
+        "site:official website \"Abridge\" \"2026\" \"July\""
+      ]
+    },
+    {
+      "name": "Ambience Healthcare",
+      "maker": "Ambience",
+      "section": "Vertical AI \u2014 Healthcare",
+      "queries": [
+        "\"Ambience Healthcare\" \"Ambience\" (release OR launched OR announced OR preview OR beta OR benchmark OR update OR changelog OR safety) after:2026-07-20 before:2026-07-28",
+        "site:official website \"Ambience Healthcare\" \"2026\" \"July\""
+      ]
+    },
+    {
+      "name": "Nuance DAX",
+      "maker": "Microsoft",
+      "section": "Vertical AI \u2014 Healthcare",
+      "queries": [
+        "\"Nuance DAX\" \"Microsoft\" (release OR launched OR announced OR preview OR beta OR benchmark OR update OR changelog OR safety) after:2026-07-20 before:2026-07-28",
+        "site:microsoft.com \"Nuance DAX\" \"2026\" \"July\""
+      ]
+    },
+    {
+      "name": "Glass Health",
+      "maker": "Glass Health",
+      "section": "Vertical AI \u2014 Healthcare",
+      "queries": [
+        "\"Glass Health\" \"Glass Health\" (release OR launched OR announced OR preview OR beta OR benchmark OR update OR changelog OR safety) after:2026-07-20 before:2026-07-28",
+        "site:official website \"Glass Health\" \"2026\" \"July\""
+      ]
+    },
+    {
+      "name": "Tempus AI",
+      "maker": "Tempus",
+      "section": "Vertical AI \u2014 Healthcare",
+      "queries": [
+        "\"Tempus AI\" \"Tempus\" (release OR launched OR announced OR preview OR beta OR benchmark OR update OR changelog OR safety) after:2026-07-20 before:2026-07-28",
+        "site:official website \"Tempus AI\" \"2026\" \"July\""
+      ]
+    },
+    {
+      "name": "Viz.ai",
+      "maker": "Viz.ai",
+      "section": "Vertical AI \u2014 Healthcare",
+      "queries": [
+        "\"Viz.ai\" \"Viz.ai\" (release OR launched OR announced OR preview OR beta OR benchmark OR update OR changelog OR safety) after:2026-07-20 before:2026-07-28",
+        "site:official website \"Viz.ai\" \"2026\" \"July\""
+      ]
+    },
+    {
+      "name": "Wysa",
+      "maker": "Wysa",
+      "section": "Vertical AI \u2014 Healthcare",
+      "queries": [
+        "\"Wysa\" \"Wysa\" (release OR launched OR announced OR preview OR beta OR benchmark OR update OR changelog OR safety) after:2026-07-20 before:2026-07-28",
+        "site:official website \"Wysa\" \"2026\" \"July\""
+      ]
+    },
+    {
+      "name": "Harvey AI",
+      "maker": "Harvey AI",
+      "section": "Vertical AI \u2014 Legal & Finance",
+      "queries": [
+        "\"Harvey AI\" \"Harvey AI\" (release OR launched OR announced OR preview OR beta OR benchmark OR update OR changelog OR safety) after:2026-07-20 before:2026-07-28",
+        "site:official website \"Harvey AI\" \"2026\" \"July\""
+      ]
+    },
+    {
+      "name": "EvenUp",
+      "maker": "EvenUp",
+      "section": "Vertical AI \u2014 Legal & Finance",
+      "queries": [
+        "\"EvenUp\" \"EvenUp\" (release OR launched OR announced OR preview OR beta OR benchmark OR update OR changelog OR safety) after:2026-07-20 before:2026-07-28",
+        "site:official website \"EvenUp\" \"2026\" \"July\""
+      ]
+    },
+    {
+      "name": "Ramp",
+      "maker": "Ramp",
+      "section": "Vertical AI \u2014 Legal & Finance",
+      "queries": [
+        "\"Ramp\" \"Ramp\" (release OR launched OR announced OR preview OR beta OR benchmark OR update OR changelog OR safety) after:2026-07-20 before:2026-07-28",
+        "site:official website \"Ramp\" \"2026\" \"July\""
+      ]
+    },
+    {
+      "name": "Kensho",
+      "maker": "S&P Global",
+      "section": "Vertical AI \u2014 Legal & Finance",
+      "queries": [
+        "\"Kensho\" \"S&P Global\" (release OR launched OR announced OR preview OR beta OR benchmark OR update OR changelog OR safety) after:2026-07-20 before:2026-07-28",
+        "site:official website \"Kensho\" \"2026\" \"July\""
+      ]
+    },
+    {
+      "name": "Manus (\u2192 Meta)",
+      "maker": "Monica.im",
+      "section": "Acquisitions & Pivots",
+      "queries": [
+        "\"Manus (\u2192 Meta)\" \"Monica.im\" (release OR launched OR announced OR preview OR beta OR benchmark OR update OR changelog OR safety) after:2026-07-20 before:2026-07-28",
+        "site:official website \"Manus (\u2192 Meta)\" \"2026\" \"July\""
+      ]
+    },
+    {
+      "name": "Cerebras (\u2192 OpenAI)",
+      "maker": "Cerebras",
+      "section": "Acquisitions & Pivots",
+      "queries": [
+        "\"Cerebras (\u2192 OpenAI)\" \"Cerebras\" (release OR launched OR announced OR preview OR beta OR benchmark OR update OR changelog OR safety) after:2026-07-20 before:2026-07-28",
+        "site:official website \"Cerebras (\u2192 OpenAI)\" \"2026\" \"July\""
+      ]
+    },
+    {
+      "name": "Groq (\u2192 NVIDIA)",
+      "maker": "Groq",
+      "section": "Acquisitions & Pivots",
+      "queries": [
+        "\"Groq (\u2192 NVIDIA)\" \"Groq\" (release OR launched OR announced OR preview OR beta OR benchmark OR update OR changelog OR safety) after:2026-07-20 before:2026-07-28",
+        "site:official website \"Groq (\u2192 NVIDIA)\" \"2026\" \"July\""
+      ]
+    },
+    {
+      "name": "Inflection Pi (\u2192 Microsoft)",
+      "maker": "Inflection AI",
+      "section": "Acquisitions & Pivots",
+      "queries": [
+        "\"Inflection Pi (\u2192 Microsoft)\" \"Inflection AI\" (release OR launched OR announced OR preview OR beta OR benchmark OR update OR changelog OR safety) after:2026-07-20 before:2026-07-28",
+        "site:official website \"Inflection Pi (\u2192 Microsoft)\" \"2026\" \"July\""
+      ]
+    },
+    {
+      "name": "Adept AI (\u2192 Amazon)",
+      "maker": "Adept AI",
+      "section": "Acquisitions & Pivots",
+      "queries": [
+        "\"Adept AI (\u2192 Amazon)\" \"Adept AI\" (release OR launched OR announced OR preview OR beta OR benchmark OR update OR changelog OR safety) after:2026-07-20 before:2026-07-28",
+        "site:official website \"Adept AI (\u2192 Amazon)\" \"2026\" \"July\""
+      ]
+    },
+    {
+      "name": "Moveworks (\u2192 ServiceNow)",
+      "maker": "Moveworks",
+      "section": "Acquisitions & Pivots",
+      "queries": [
+        "\"Moveworks (\u2192 ServiceNow)\" \"Moveworks\" (release OR launched OR announced OR preview OR beta OR benchmark OR update OR changelog OR safety) after:2026-07-20 before:2026-07-28",
+        "site:official website \"Moveworks (\u2192 ServiceNow)\" \"2026\" \"July\""
+      ]
+    },
+    {
+      "name": "Base44 (\u2192 Wix)",
+      "maker": "Base44",
+      "section": "Acquisitions & Pivots",
+      "queries": [
+        "\"Base44 (\u2192 Wix)\" \"Base44\" (release OR launched OR announced OR preview OR beta OR benchmark OR update OR changelog OR safety) after:2026-07-20 before:2026-07-28",
+        "site:official website \"Base44 (\u2192 Wix)\" \"2026\" \"July\""
+      ]
+    },
+    {
+      "name": "Graphite (\u2192 Cursor)",
+      "maker": "Graphite",
+      "section": "Acquisitions & Pivots",
+      "queries": [
+        "\"Graphite (\u2192 Cursor)\" \"Graphite\" (release OR launched OR announced OR preview OR beta OR benchmark OR update OR changelog OR safety) after:2026-07-20 before:2026-07-28",
+        "site:official website \"Graphite (\u2192 Cursor)\" \"2026\" \"July\""
+      ]
+    },
+    {
+      "name": "Tome (deprecated)",
+      "maker": "Tome",
+      "section": "Acquisitions & Pivots",
+      "queries": [
+        "\"Tome (deprecated)\" \"Tome\" (release OR launched OR announced OR preview OR beta OR benchmark OR update OR changelog OR safety) after:2026-07-20 before:2026-07-28",
+        "site:official website \"Tome (deprecated)\" \"2026\" \"July\""
+      ]
+    },
+    {
+      "name": "Claude Opus 5",
+      "maker": "Anthropic",
+      "section": "Anthropic",
+      "queries": [
+        "\"Claude Opus 5\" \"Anthropic\" (release OR launched OR announced OR preview OR beta OR benchmark OR update OR changelog OR safety) after:2026-07-20 before:2026-07-28",
+        "site:anthropic.com \"Claude Opus 5\" \"2026\" \"July\""
+      ]
+    },
+    {
+      "name": "Kimi K3 Open Weights",
+      "maker": "Moonshot AI",
+      "section": "Moonshot AI (Kimi)",
+      "queries": [
+        "\"Kimi K3 Open Weights\" \"Moonshot AI\" (release OR launched OR announced OR preview OR beta OR benchmark OR update OR changelog OR safety) after:2026-07-20 before:2026-07-28",
+        "site:official website \"Kimi K3 Open Weights\" \"2026\" \"July\""
+      ]
+    },
+    {
+      "name": "MAI-Cyber-1-Flash",
+      "maker": "Microsoft",
+      "section": "Microsoft",
+      "queries": [
+        "\"MAI-Cyber-1-Flash\" \"Microsoft\" (release OR launched OR announced OR preview OR beta OR benchmark OR update OR changelog OR safety) after:2026-07-20 before:2026-07-28",
+        "site:microsoft.com \"MAI-Cyber-1-Flash\" \"2026\" \"July\""
+      ]
+    }
+  ]
+}
